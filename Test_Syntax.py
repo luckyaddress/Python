@@ -49,5 +49,4 @@ class pig:
 pig.hoho(10,20)
 
 a = 50
-b = 40
     
