@@ -8,6 +8,7 @@ Cat	Test_Syntax.py	/^class Cat:$/;"	kind:class	line:25
 Test1	Test_Syntax.py	/^def Test1():$/;"	kind:function	line:15
 Test2	Test_Syntax.py	/^def Test2(x):$/;"	kind:function	line:20
 Test_Syntax.py	Test_Syntax.py	1;"	kind:file	line:1
+a	Test_Syntax.py	/^a = 50/;"	kind:variable	line:50
 a	Test_Syntax.py	/^a = Cat()$/;"	kind:variable	line:30
 a	Test_Syntax.py	/^a = dog()$/;"	kind:variable	line:39
 dog	Test_Syntax.py	/^class dog:$/;"	kind:class	line:33
