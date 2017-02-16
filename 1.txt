@@ -1,0 +1,34 @@
+使用VS Code 接上GitHub
+
+1.先在GitHub上新增一個專案，取得超連結位址 
+
+  例如：git remote add origin https://github.com/luckyaddress/Python.git
+
+2.開啟終端機或者命令提示字元
+
+  # git config --global user.name "GitHub帳號"
+  # git config --global user.email "GitHub的Email"
+
+3.輸入 git config --list 可以看是否設定完成
+
+4.進入要推送上去的資料夾，輸入
+ 
+   # git init
+   # git add
+   # git commit
+
+5.將該資料夾推送到GitHub上，接著輸入
+  
+  # git remote add origin 步驟1取得的超連結位址
+
+6.進行第一次推送
+  
+  # git push -u origin master 
+  
+7.要求您輸入GitHub的帳號密碼
+
+8.會出現done等相關訊息，完成之後，在VS Code的
+
+  Git，只要在訊息視窗輸入Commit.，再按下上方的勾勾即可完成
+
+9.若使用push功能，似乎會有SSH連線的錯誤，相關部份要在研究
