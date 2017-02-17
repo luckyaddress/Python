@@ -47,3 +47,5 @@ class pig:
         print('success', x ,y)
 
 pig.hoho(10,20)
+
+a = 50
