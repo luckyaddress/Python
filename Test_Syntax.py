@@ -64,6 +64,7 @@ for i in range(10,0, -1):
     #      console.writeLine(i);
     #     }的用法設定
     print(i)
+    
 # while迴圈  
 # # C#就是 
 # i = 0;
