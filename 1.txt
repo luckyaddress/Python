@@ -1,3 +1,7 @@
+**CentOS上Visual Studio Code更新
+  請下載rpm檔，直接點擊安裝即可完成更新。
+
+
 使用VS Code 接上GitHub
 
 1.先在GitHub上新增一個專案，取得超連結位址 
