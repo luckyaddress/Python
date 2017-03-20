@@ -67,9 +67,10 @@ for i in range(10,0, -1):
     
 # while迴圈  
 # # C#就是 
-# i = 0;
-# while (i <= 10) { console.writeLiine(i); i++} 
+#   i = 0;
+ #while (i <= 10) { console.writeLiine(i); i++} 
     i = 0
     while i <= 10 :
         print(i)
         i += 1
+        #上述程式會執行成 10 0~10 9 0~10 8 0~10 直到 0~10        
