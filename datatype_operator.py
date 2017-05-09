@@ -35,13 +35,18 @@ print(d)
 a = 5
 b = a + 3
 print(b)
+
 b = a * 3
 print(b)
+
 b = a/5
 print(b)
+
 b = a - 2
 print(b)
+
 b = a % 2 
 print(b)
+
 b = a ** 2
 print(b)
