@@ -8,8 +8,8 @@ print(0.025.is_integer())
 # 跳脫字元\t --tab鍵
 print('Hello\tJack!')
 # 列印單引號或者雙引號 使用\'或\"
-print('\'Hello Jack\'')
-print('\"測試\"')
+print('\'單引號\'')
+print('\"雙引號\"')
 
 # 設定變數為布林值
 a = True
