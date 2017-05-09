@@ -1,6 +1,7 @@
 **CentOS上Visual Studio Code更新
   請下載rpm檔，直接點擊安裝即可完成更新。
 
+**Visual Studio Code 執行Code 快捷鍵為 Ctrl＋Shift+B
 
 使用VS Code 接上GitHub
 
