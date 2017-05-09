@@ -28,6 +28,7 @@ c = a and b
 print(c)
 x = a or b
 print(x)
+
 d = not b
 print(d)
 
