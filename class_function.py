@@ -1,16 +1,5 @@
 #-*- coding: utf-8 -*- 
 # 使用中文註解，要加上上面那一行的編碼
-if 2 <= 5:
-    print('True')
-else:
-    print('False')
-
-if 2 < 5:
-    print('Get')
-elif 2 > 5:
-    print('Shit')
-else:
-    print('False')
 
 def Test1():
     print('Earn Money')
@@ -48,29 +37,23 @@ class pig:
 
 pig.hoho(10,20)
 
-#迴圈
-def girlprint(name):
-    print('Hi '+ name)
+# 函數使用return
+def test1(a,b):
+    if a > b:
+        return "好"
+    else:
+        return "不好"
 
-girls = ['nancy', 'stacey', 'tracy', 'wakaki']
+print(test1(5,8)) # 列印函數的回傳值！
 
-for name in girls:  #設定變數name的範圍，是在girls陣列中
-    girlprint(name)
-
-# for限定次數的迴圈
-for i in range(10,0, -1): 
-    # 以C#來說，是類似for(int i = 1; i<=10; i--) 
-    #   {
-    #      console.writeLine(i);
-    #     }的用法設定
-    print(i)
-    
-# while迴圈  
-# # C#就是 
-#   i = 0;
- #while (i <= 10) { console.writeLiine(i); i++} 
-    i = 0
-    while i <= 10 :
-        print(i)
-        i += 1
-        #上述程式會執行成 10 0~10 9 0~10 8 0~10 直到 0~10        
+# 類別
+class Cat:
+    def voice(self, a, b):
+        self.a = a
+        self.b = b
+        # voice方法先把 a跟b指定給這個類別的本身self
+    def meow(self):
+        return self.a + self.b
+d = Cat()
+d.voice(22,33)
+print(d.meow())

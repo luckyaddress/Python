@@ -1,4 +1,6 @@
 #-*- coding: utf-8 -*- 
+# 使用中文註解，要加上上面那一行的編碼
+
 #判斷是否為整數
 print(2.00.is_integer())
 print(0.025.is_integer())
@@ -43,24 +45,3 @@ b = a % 2
 print(b)
 b = a ** 2
 print(b)
-
-# 函數使用return
-def test1(a,b):
-    if a > b:
-        return "好"
-    else:
-        return "不好"
-
-print(test1(5,8)) # 列印函數的回傳值！
-
-# 類別
-class Cat:
-    def voice(self, a, b):
-        self.a = a
-        self.b = b
-        # voice方法先把 a跟b指定給這個類別的本身self
-    def meow(self):
-        return self.a + self.b
-d = Cat()
-d.voice(22,33)
-print(d.meow())
