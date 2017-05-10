@@ -40,6 +40,7 @@ loop.py	../loop.py	1;"	kind:file	line:1
 meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:15
 meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:64
 pig	../class_function.py	/^class pig:$/;"	kind:class	line:39
+python_use_regex.py	../python_use_regex.py	1;"	kind:file	line:1
 test1	../class_function.py	/^def test1(a,b):$/;"	kind:function	line:50
 var1	../class_function.py	/^    var1 = "Try classmethod"$/;"	kind:variable	line:41
 voice	../class_function.py	/^    def voice(self, a, b):$/;"	kind:member	line:60
