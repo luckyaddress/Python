@@ -1,0 +1,18 @@
+建議在root帳號下執行
+cd /到一個你想要存放git壓縮檔的資料夾，後續方便刪除(到tmp也可以，後續再刪除)
+wget https://www.kernel.org/pub/software/scm/git/git-2.9.3.tar.gz
+步驟3 的網址，請到Git網站更新，以取得最新的版本
+tar -zxf git-2.9.3.tar.gz
+cd git-2.9.3.tar.gz
+yum remove git  (請務必移除舊版的git，後續才能正常讀取git的版本)
+yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
+(安裝編譯工具)
+make prefix=/usr/local/git all
+(進行編譯)
+make prefix=/usr/local/git install
+(開始安裝)
+echo "export PATH=$PATH:/usr/local/git/bin" >> /etc/bashrc
+(將git的環境變數，加入到PATH)
+source /etc/bashrc
+git --version
+(此時應正常顯示為git version 2.9.3)
