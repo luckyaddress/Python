@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*- 
 # 使用中文註解，要加上上面那一行的編碼
 
-import re           #import re 作為引入regex函式庫
+import re           #import re 作為引入regex函式庫 (Python的函式庫)
 pattern = '[abc]'   #設定正規式要搜尋的pattern
 string = 'aAbBcC'   #搜尋字串
 match_string = re.findall(pattern, string)   #設定match_string為re函式庫下findall方法的回傳字串
@@ -16,3 +16,12 @@ match_string_2 = re.search(pattern_2,string_2)
 x_2 = match_string_2.group()
 # search 要跟 group()搭配，回傳比對結果
 print x_2  # search 跟 group()的搭配，只會傳回第一個比對到的值
+
+pattern_3 = r"\.\w+"  # \. 表示 . 因為Regex中 . 表示單一任意字元
+string_3 = ".abc 123 abc"
+
+match_string_3 = re.search(pattern_3,string_3)
+
+x_3 = match_string_3.group()
+
+print x_3

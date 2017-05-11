@@ -9,6 +9,7 @@ Cat	../class_function.py	/^class Cat:$/;"	kind:class	line:59
 PetShow	../loop.py	/^def PetShow(x):$/;"	kind:function	line:39
 Petname	../loop.py	/^Petname = ['Snoopy', 'Kitty', 'Doraemon', '孫悟空']$/;"	kind:variable	line:43
 Print3	../class_function.py	/^    def Print3(paraTest):  $/;"	kind:member	line:43
+Python	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
 Test1	../class_function.py	/^def Test1():$/;"	kind:function	line:4
 Test2	../class_function.py	/^def Test2(x):$/;"	kind:function	line:9
 a	../class_function.py	/^a = Cat()$/;"	kind:variable	line:19
@@ -36,20 +37,28 @@ girlprint	../loop.py	/^def girlprint(name):$/;"	kind:function	line:27
 girls	../loop.py	/^girls = ['Nancy', 'Stacey', 'Tracy', 'Wakaki']$/;"	kind:variable	line:31
 i	../loop.py	/^    i = 0$/;"	kind:variable	line:17
 if_else.py	../if_else.py	1;"	kind:file	line:1
-import	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫$/;"	kind:namespace	line:4
+import	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
 loop.py	../loop.py	1;"	kind:file	line:1
 match_string	../python_use_regex.py	/^match_string = re.findall(pattern, string)   #設定match_string為re函式庫下findall方法的回傳字串$/;"	kind:variable	line:7
+match_string_2	../python_use_regex.py	/^match_string_2 = re.search(pattern_2,string_2) $/;"	kind:variable	line:14
+match_string_3	../python_use_regex.py	/^match_string_3 = re.findall(pattern_3,string_3)$/;"	kind:variable	line:23
 meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:15
 meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:64
 pattern	../python_use_regex.py	/^pattern = '[abc]'   #設定正規式要搜尋的pattern$/;"	kind:variable	line:5
+pattern_2	../python_use_regex.py	/^pattern_2 = r'ab.'   # r 表示 raw string，不做特殊處理，另外+號表示1個或1個以上的關鍵字，寫在pattern字串內 $/;"	kind:variable	line:12
+pattern_3	../python_use_regex.py	/^pattern_3 = r"\\.\\w+"  # $/;"	kind:variable	line:20
 pig	../class_function.py	/^class pig:$/;"	kind:class	line:39
 python_use_regex.py	../python_use_regex.py	1;"	kind:file	line:1
-re	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫$/;"	kind:namespace	line:4
-regex	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫$/;"	kind:namespace	line:4
+re	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
+regex	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
 string	../python_use_regex.py	/^string = 'aAbBcC'   #搜尋字串$/;"	kind:variable	line:6
+string_2	../python_use_regex.py	/^string_2 = 'abdabxacb'$/;"	kind:variable	line:13
+string_3	../python_use_regex.py	/^string_3 = ".abc 123 abc"$/;"	kind:variable	line:21
 test1	../class_function.py	/^def test1(a,b):$/;"	kind:function	line:50
 var1	../class_function.py	/^    var1 = "Try classmethod"$/;"	kind:variable	line:41
 voice	../class_function.py	/^    def voice(self, a, b):$/;"	kind:member	line:60
 wow	../class_function.py	/^    def wow(x,y):$/;"	kind:member	line:26
 x	../datatype_operator.py	/^x = a or b$/;"	kind:variable	line:29
 x	../python_use_regex.py	/^x = match_string$/;"	kind:variable	line:9
+x_2	../python_use_regex.py	/^x_2 = match_string_2.group()$/;"	kind:variable	line:16
+x_3	../python_use_regex.py	/^x_3 = match_string_3$/;"	kind:variable	line:25
