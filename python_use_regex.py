@@ -19,9 +19,6 @@ print x_2  # search 跟 group()的搭配，只會傳回第一個比對到的值
 
 pattern_3 = r"\.\w+"  # \. 表示 . 因為Regex中 . 表示單一任意字元
 string_3 = ".abc 123 abc"
-
 match_string_3 = re.search(pattern_3,string_3)
-
 x_3 = match_string_3.group()
-
 print x_3
