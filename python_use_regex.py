@@ -22,3 +22,8 @@ string_3 = ".abc 123 abc"
 match_string_3 = re.search(pattern_3,string_3)
 x_3 = match_string_3.group()
 print x_3
+
+# 另一種用法：將Pattern在re中comile，變成一個re的物件，再執行其search或findall方法
+p = re.compile('[a-z]')　
+m = p.findall("zljlrjuaoducomlreaf") # 執行findall方法 將字串帶入re物件(p)的方法中
+print m
