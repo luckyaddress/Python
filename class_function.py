@@ -48,7 +48,7 @@ class pig:
     def Print3(paraTest, x, y):  
         print "print 3: "+ paraTest.var1 + x + y 
 
-pig.Print3(" 測試", " python的方法")
+pig.Print3(" 測試", " Python的方法")
 
 # 函數使用return
 
@@ -62,7 +62,7 @@ print(test1(5,8)) # 列印函數的回傳值！
 
 # 類別
 class Cat:
-    def voice(self, a, b):
+    def voice(self, a, b): #self表示這個類別本身
         self.num1 = a
         self.num2 = b
         # voice方法先把 a跟b 指定給這個類別的本身self
