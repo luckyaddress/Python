@@ -51,3 +51,6 @@ print(b)
 
 b = a ** 2
 print(b)
+
+print ("計算結果 ＝ " + str(100))
+# Python為強型別語言，需要手動進行資料型態轉換
