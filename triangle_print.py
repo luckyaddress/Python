@@ -1,7 +1,9 @@
-for i in range(0,5,1):
-    for j in range(0,i,1):
-        print('*')
-    print('\n')
+#-*- coding: utf-8 -*- 
+# 使用中文註解，要加上上面那一行的編碼
 
+for i in range(1,6,1):
+    print('*'*i)
+# 因為Python本身的()，[],{} 皆有斷行多列的功能，
+# 所以不用巢狀迴圈來列印斷行。
 
     
