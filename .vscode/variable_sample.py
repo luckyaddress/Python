@@ -12,3 +12,4 @@ print (b)
 x,y=33,66
 x,y=y,x   # 重新指定後，x,y的值會互換
 print (y)
+
