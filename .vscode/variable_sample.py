@@ -16,4 +16,5 @@ print (y)
 j = 5; a = 4 + 3*j; b = 5 + 2j
 print(a,b)
 print(str(type(a)), str(type(b)))
-# Python支援複數資料型態
+# Python支援複數(complex)資料型態
+# 利用type()來取得資料型態
