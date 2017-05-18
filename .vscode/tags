@@ -63,6 +63,7 @@ string	../python_use_regex.py	/^string = 'aAbBcC'   #搜尋字串$/;"	kind:varia
 string_2	../python_use_regex.py	/^string_2 = 'abdabxacb'$/;"	kind:variable	line:13
 string_3	../python_use_regex.py	/^string_3 = ".abc 123 abc"$/;"	kind:variable	line:21
 test1	../class_function.py	/^def test1(a,b):$/;"	kind:function	line:55
+triangle_print.py	../triangle_print.py	1;"	kind:file	line:1
 var1	../class_function.py	/^    var1 = "Try classmethod"$/;"	kind:variable	line:46
 var1	../class_function.py	/^    var1 = "Try staticmethod"$/;"	kind:variable	line:28
 voice	../class_function.py	/^    def voice(self, a, b): #self表示這個類別本身$/;"	kind:member	line:65
