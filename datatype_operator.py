@@ -62,3 +62,12 @@ print (a*b/c)
 str(), # 轉換成字串
 int(), # 轉換成整數
 float() # 轉換成浮點小數
+
+a = 1
+print(type(a))
+b = str(a)
+print(type(b))
+c = 1.0
+print(type(c))
+
+
