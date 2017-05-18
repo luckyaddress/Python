@@ -13,3 +13,7 @@ x,y = 33,66
 x,y = y,x   # 重新指定後，x,y的值會互換
 print (y)
 
+j = 5; a = 4 + 3*j; b = 5 + 2j
+print(a,b)
+print(str(type(a)), str(type(5)))
+# Python支援複數資料型態
