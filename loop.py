@@ -44,4 +44,3 @@ Petname = ['Snoopy', 'Kitty', 'Doraemon', '孫悟空']
 
 for nameforPet in Petname:
     PetShow(nameforPet)
-
