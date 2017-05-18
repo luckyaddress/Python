@@ -69,5 +69,3 @@ b = str(a)
 print(type(b))
 c = 1.0
 print(type(c))
-
-
