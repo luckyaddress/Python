@@ -34,6 +34,8 @@ b	../datatype_operator.py	/^b = str(a)$/;"	kind:variable	line:68
 b	../dict_list_example.py	/^b = "test@google.com"$/;"	kind:variable	line:20
 c	../datatype_operator.py	/^c = 1.0$/;"	kind:variable	line:70
 c	../datatype_operator.py	/^c = a and b$/;"	kind:variable	line:27
+c	../pyhon_operator.py	/^c = (5.0 \/ 9.0) * (f - 32.0)$/;"	kind:variable	line:19
+c	../pyhon_operator.py	/^c = a**b$/;"	kind:variable	line:5
 class_function.py	../class_function.py	1;"	kind:file	line:1
 d	../class_function.py	/^d = Cat()  # new一個Cat物件$/;"	kind:variable	line:72
 d	../datatype_operator.py	/^d = not b$/;"	kind:variable	line:32
@@ -42,6 +44,7 @@ d2	../dict_list_example.py	/^d2 = {1:"a", 2:"b"}$/;"	kind:variable	line:11
 datatype_operator.py	../datatype_operator.py	1;"	kind:file	line:1
 dict_list_example.py	../dict_list_example.py	1;"	kind:file	line:1
 dog	../class_function.py	/^class dog:$/;"	kind:class	line:27
+f	../pyhon_operator.py	/^f = int(input("請輸入華式溫度=>"))$/;"	kind:variable	line:18
 girlprint	../loop.py	/^def girlprint(name):$/;"	kind:function	line:27
 girls	../loop.py	/^girls = ['Nancy', 'Stacey', 'Tracy', 'Wakaki']$/;"	kind:variable	line:31
 i	../loop.py	/^    i = 0$/;"	kind:variable	line:17
@@ -55,11 +58,13 @@ match_string_2	../python_use_regex.py	/^match_string_2 = re.search(pattern_2,str
 match_string_3	../python_use_regex.py	/^match_string_3 = re.search(pattern_3,string_3)$/;"	kind:variable	line:22
 meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:15
 meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:69
-p	../python_use_regex.py	/^p = re.compile('[a-z]')　$/;"	kind:variable	line:27
+p	../pyhon_operator.py	/^p = y \/\/ float(x)$/;"	kind:variable	line:11
+p	../python_use_regex.py	/^p = re.compile(r"[a-z]")$/;"	kind:variable	line:27
 pattern	../python_use_regex.py	/^pattern = '[abc]'   #設定正規式要搜尋的pattern$/;"	kind:variable	line:5
 pattern_2	../python_use_regex.py	/^pattern_2 = r'ab.'   # r 表示 raw string，不做特殊處理，另外+號表示1個或1個以上的關鍵字，寫在pattern字串內 $/;"	kind:variable	line:12
 pattern_3	../python_use_regex.py	/^pattern_3 = r"\\.\\w+"  # \\. 表示 . 因為Regex中 . 表示單一任意字元$/;"	kind:variable	line:20
 pig	../class_function.py	/^class pig:$/;"	kind:class	line:44
+pyhon_operator.py	../pyhon_operator.py	1;"	kind:file	line:1
 python_use_regex.py	../python_use_regex.py	1;"	kind:file	line:1
 re	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
 regex	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
@@ -78,3 +83,4 @@ x	../datatype_operator.py	/^x = a or b$/;"	kind:variable	line:29
 x	../python_use_regex.py	/^x = match_string$/;"	kind:variable	line:9
 x_2	../python_use_regex.py	/^x_2 = match_string_2.group()$/;"	kind:variable	line:16
 x_3	../python_use_regex.py	/^x_3 = match_string_3.group()$/;"	kind:variable	line:23
+z	../pyhon_operator.py	/^z = y \/ float(x)$/;"	kind:variable	line:10
