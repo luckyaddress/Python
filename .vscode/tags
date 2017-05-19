@@ -15,6 +15,7 @@ Test1	../class_function.py	/^def Test1():$/;"	kind:function	line:4
 Test2	../class_function.py	/^def Test2(x):$/;"	kind:function	line:9
 a	../class_function.py	/^a = Cat()$/;"	kind:variable	line:19
 a	../class_function.py	/^a = dog() #相當於new一個物件，將其實體化$/;"	kind:variable	line:35
+a	../datatype_operator.py	/^a = 1$/;"	kind:variable	line:66
 a	../datatype_operator.py	/^a = 5$/;"	kind:variable	line:36
 a	../datatype_operator.py	/^a = True$/;"	kind:variable	line:15
 a	../datatype_operator.py	/^a = True$/;"	kind:variable	line:25
@@ -29,7 +30,9 @@ b	../datatype_operator.py	/^b = a ** 2$/;"	kind:variable	line:52
 b	../datatype_operator.py	/^b = a + 3$/;"	kind:variable	line:37
 b	../datatype_operator.py	/^b = a - 2$/;"	kind:variable	line:46
 b	../datatype_operator.py	/^b = a\/5$/;"	kind:variable	line:43
+b	../datatype_operator.py	/^b = str(a)$/;"	kind:variable	line:68
 b	../dict_list_example.py	/^b = "test@google.com"$/;"	kind:variable	line:20
+c	../datatype_operator.py	/^c = 1.0$/;"	kind:variable	line:70
 c	../datatype_operator.py	/^c = a and b$/;"	kind:variable	line:27
 class_function.py	../class_function.py	1;"	kind:file	line:1
 d	../class_function.py	/^d = Cat()  # new一個Cat物件$/;"	kind:variable	line:72
@@ -44,6 +47,7 @@ girls	../loop.py	/^girls = ['Nancy', 'Stacey', 'Tracy', 'Wakaki']$/;"	kind:varia
 i	../loop.py	/^    i = 0$/;"	kind:variable	line:17
 if_else.py	../if_else.py	1;"	kind:file	line:1
 import	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
+input_function_demo.py	../input_function_demo.py	1;"	kind:file	line:1
 loop.py	../loop.py	1;"	kind:file	line:1
 m	../python_use_regex.py	/^m = p.findall("zljlrjuaoducomlreaf") # 執行findall方法 將字串帶入re物件(p)的方法中$/;"	kind:variable	line:28
 match_string	../python_use_regex.py	/^match_string = re.findall(pattern, string)   #設定match_string為re函式庫下findall方法的回傳字串$/;"	kind:variable	line:7
@@ -66,6 +70,8 @@ test1	../class_function.py	/^def test1(a,b):$/;"	kind:function	line:55
 triangle_print.py	../triangle_print.py	1;"	kind:file	line:1
 var1	../class_function.py	/^    var1 = "Try classmethod"$/;"	kind:variable	line:46
 var1	../class_function.py	/^    var1 = "Try staticmethod"$/;"	kind:variable	line:28
+var1	../input_function_demo.py	/^var1 = int(input("請輸入整數=>"))$/;"	kind:variable	line:4
+var2	../input_function_demo.py	/^var2 = float(input("請輸入浮點數=>"))$/;"	kind:variable	line:11
 voice	../class_function.py	/^    def voice(self, a, b): #self表示這個類別本身$/;"	kind:member	line:65
 wow	../class_function.py	/^    def wow(x,y):$/;"	kind:member	line:30
 x	../datatype_operator.py	/^x = a or b$/;"	kind:variable	line:29
