@@ -50,3 +50,10 @@ for i in range(1,var1+1):
     print("i = " + str(i))
     s += i
 print("總和 = " + str(s))
+
+# 條件迴圈 = while 要在條件運算中，自行處理計數器i
+n = 1; r = 1
+while n <= 10:
+    r = n * r  #(1! = 1*1 3! = 1*2*3 n先為2,帶入左側的r=2;接著左側的n會變成3 新的r會變成2*3)
+    n = n + 1
+print("數學階層！ ＝ " + str(r))
