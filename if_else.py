@@ -11,3 +11,8 @@ elif 2 > 5:
     print('Shit')
 else:
     print('False')
+
+t = float(input("請輸入今天氣溫=>"))
+if t < 20:
+    print("請加件外套吧")
+    
