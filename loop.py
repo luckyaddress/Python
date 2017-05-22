@@ -15,7 +15,7 @@ for i in range(5, 0, -1):
 #   i = 0;
 # while (i <= 10) { console.writeLiine(i); i++} 
 
-# Python 
+# Python 要注意程式段落跟縮排問題，否則會造成執行效果差異！
 i = 0
 while i <= 4 :
         print(i)
