@@ -12,8 +12,15 @@ elif 2 > 5:
 else:
     print('False')
 
+
 t = float(input("請輸入今天氣溫=>"))
 if t > 20 and t < 22:
     print("請加件薄外套吧")
 elif t < 20:
     print("請加件厚重的外套")
+
+score = int(input("請輸入成績分數=>"))
+if score > 60:
+    print("恭喜通過考試")
+else:
+    print("未通過")
