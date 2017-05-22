@@ -24,3 +24,14 @@ if score > 60:
     print("恭喜通過考試")
 else:
     print("未通過")
+
+# 多選一條件敘述
+
+a = 40
+
+if a > 30:
+    print("產率達成")
+elif a >25:
+    print("產率有待加強")
+else:
+    print("產率不足")
