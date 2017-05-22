@@ -35,3 +35,15 @@ elif a >25:
     print("產率有待加強")
 else:
     print("產率不足")
+
+# 巢狀條件敘述
+
+a,b,c = 15,21,14
+
+if a > b and  a > c:
+    print("變數 a 最大")
+else:
+    if b > c:
+        print("變數 b 最大")
+    else:
+        print("變數 c 最大")
