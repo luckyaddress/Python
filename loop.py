@@ -13,14 +13,13 @@ for i in range(5, 0, -1):
 # while迴圈  
 # # C#就是 
 #   i = 0;
- #while (i <= 10) { console.writeLiine(i); i++} 
-    i = 0
-    while i <= 4 :
+# while (i <= 10) { console.writeLiine(i); i++} 
+
+# Python 
+i = 0
+while i <= 4 :
         print(i)
         i += 1
-
-        #上述兩個迴圈程式會執行成 5(for) 0~4(while) 4(for) 0~4(while)
-        #直到0(for) 0~4(while)        
 
 #定義迴圈的函數
 
