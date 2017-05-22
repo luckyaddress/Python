@@ -43,3 +43,10 @@ Petname = ['Snoopy', 'Kitty', 'Doraemon', '孫悟空']
 
 for nameforPet in Petname:
     PetShow(nameforPet)
+
+var1 = int(input("請輸入最大值=>"))
+s = 0
+for i in range(1,var1+1):
+    print("i = " + str(i))
+    s += i
+print("總和 = " + str(s))
