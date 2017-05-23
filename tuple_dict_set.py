@@ -24,4 +24,21 @@ print(sorted(turple2)) # 因為2是字串
 t3 = (1, 1, "a", "a", "n", "c", 3, 5,)
 print(t3.count("a"))
 
-#Dict 字典檔案型態類型
+# Dict 字典檔案型態類型 屬於Key Value的資料型態
+# 字典的檔案型態 為用{}組成，內部項目用,號隔開 另外Key Value值中間用:號區隔
+d1 = {1:"apple", 2:"banana", 3:"orange"}
+print(type(d1), d1)
+
+# 字典檔的 新增 取出 修改 與取用
+# 取用
+print(d1[2])
+# 修改
+d1[2] = "pineapple"
+print(d1)
+# 指定敘述可用於新增
+d1[4] = "banana"
+print(d1)
+
+# 迴圈取用
+for key in d1:
+    print(d1[key])
