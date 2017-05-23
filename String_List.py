@@ -24,5 +24,6 @@ print("Kitty" <= "Wakaki")
 
 print(len("Hello")) # 傳回字串長度
 print(max("HELLOWAKAKI")) # 如果有小寫字母，以小寫字母為主排序
-
 print("HELLO".isupper()) # 檢測字串是否均為大寫的方法
+print("banana".count("a")) # 搜尋子字串的方法
+print("bxnxnx".replace("x" ,"a")) # 將x取代為a的方法，並輸出
