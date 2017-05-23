@@ -21,3 +21,16 @@ for i in range(1,7):
     if (i%2) == 1:
         continue   # 要繼續以下程式，要整除於2
     print(str(i))
+
+# 迴圈當中，亦可使用if/else 條件判斷，進而組成一個猜數字遊戲
+ 
+target = 41; guess = 1
+while True:
+    guess = int(input("請輸入猜測的數字=>"))
+    if guess == target:
+        break
+    elif guess > target:
+        print("數字太大，請重新輸入")
+    else:
+        print("數字太小，請重新輸入")
+print("恭喜你，猜中了")
