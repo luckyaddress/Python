@@ -16,3 +16,8 @@ while True:
     a += 1
     if a > 5:
         break
+# continue介紹
+for i in range(1,7):
+    if (i%2) == 1:
+        continue   # 要繼續以下程式，要整除於2
+    print(str(i))
