@@ -23,3 +23,5 @@ print(sorted(turple2)) # 因為2是字串
 
 t3 = (1, 1, "a", "a", "n", "c", 3, 5,)
 print(t3.count("a"))
+
+#Dict 字典檔案型態類型
