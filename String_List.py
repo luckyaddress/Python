@@ -10,9 +10,19 @@ str1 = "Hello"
 print(str1[1]) # 索引從0開始，故1為e
 print(str1*2)
 
+# 索引運算子 可用於切割字串
+print(str1[1:3])  # end端點不包含
+
 # 可以利用in 或者 not in 跟 關係運算子來進行字串比較
 str2 = "HelloWakaki"
 print("Wa" in str2)
 print("wakaki" in str2)  # 這個 in 跟not in 有比較大小寫
 
-"Kitty" >= "Wakaki"
+print("Kitty" <= "Wakaki")
+
+# 字串函數 字串方法 轉換字串方法 
+
+print(len("Hello")) # 傳回字串長度
+print(max("HELLOWAKAKI")) # 如果有小寫字母，以小寫字母為主排序
+
+print("HELLO".isupper()) # 檢測字串是否均為大寫的方法
