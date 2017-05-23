@@ -27,3 +27,28 @@ print(max("HELLOWAKAKI")) # 如果有小寫字母，以小寫字母為主排序
 print("HELLO".isupper()) # 檢測字串是否均為大寫的方法
 print("banana".count("a")) # 搜尋子字串的方法
 print("bxnxnx".replace("x" ,"a")) # 將x取代為a的方法，並輸出
+
+# List 清單的物件型態，可新增 刪除 插入 更改內部項目
+# 用[]括起來，用,號分開，並且可容納不同資料型態
+
+list1 = [1, "2", [3, 4 , 5]] # list具有巢狀之功能
+print(list1)
+
+# 使用巢狀清單中之資料
+print(list1[2][2]) # 會列印出5
+list1[1] = "wakaki" # 重新指派修改
+print(list1)
+
+# 新增 刪除 list資料
+list2 = [1, 2, [3, 4, 5], 6, 7, 8]
+list2.append(9) # 在最後一個位置加入一個
+list2.extend([10, 11, 12]) # 在最後的位置一次加入多個
+list2.insert(0, "x") # 第一個引數為索引值，第二個引數為插入內容 
+print(list2)
+# 刪除可用 del pop() remove()
+del list2[10] # 測試刪除最後一個
+list2.pop(0) # pop() 如果之中沒有引數，預設會刪除最後一個並回傳，如果有引數，則刪除引數所給予的索引位置
+list2.remove(9) # 刪除引數所代表的項目
+print(list2)
+
+
