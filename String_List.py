@@ -56,3 +56,17 @@ print(list2)
 # 清單運算子 包含 + * 以及 in not in 判斷，另外，同樣地可使用切割運算子
 list1 = [1, 2, 3, 4, 5, 6, 7, 8]
 print(list1[3:7])
+
+# 清單函數 len(), list(), sorted()
+list3 = [7, 3, 8, 5, 9, 0, 1]
+print(len(list3), sorted(list3))
+str1 = str(123456)
+print(list(str1)) #將字串 集合 元組等轉換回list
+
+# 切割字串成為清單
+str1 = "This is a book that I like"
+list1 = str1.split()
+print(list1)
+str2 = "Email:xxx@kmu.edu.tw \nName:高煜凱"
+list2 = str(str2.splitlines()).decode('string_escape')
+print(list2)
