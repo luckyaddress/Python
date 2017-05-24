@@ -46,6 +46,7 @@ class_function.py	../class_function.py	1;"	kind:file	line:1
 d	../class_function.py	/^d = Cat()  # new一個Cat物件$/;"	kind:variable	line:72
 d	../datatype_operator.py	/^d = not b$/;"	kind:variable	line:32
 d1	../dict_list_example.py	/^d1 = {"name":"Rei", "sex":"male",  "weight":75}  # 宣告一個dict$/;"	kind:variable	line:4
+d1	../tuple_dict_set.py	/^d1 = {1:"apple", 2:"banana", 3:"orange"}$/;"	kind:variable	line:29
 d2	../dict_list_example.py	/^d2 = {1:"a", 2:"b"}$/;"	kind:variable	line:11
 datatype_operator.py	../datatype_operator.py	1;"	kind:file	line:1
 dict_list_example.py	../dict_list_example.py	1;"	kind:file	line:1
@@ -60,7 +61,11 @@ if_else.py	../if_else.py	1;"	kind:file	line:1
 import	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
 input_function_demo.py	../input_function_demo.py	1;"	kind:file	line:1
 list1	../String_List.py	/^list1 = [1, "2", [3, 4 , 5]] # list具有巢狀之功能$/;"	kind:variable	line:34
+list1	../String_List.py	/^list1 = [1, 2, 3, 4, 5, 6, 7, 8]$/;"	kind:variable	line:57
+list1	../String_List.py	/^list1 = str1.split()$/;"	kind:variable	line:68
 list2	../String_List.py	/^list2 = [1, 2, [3, 4, 5], 6, 7, 8]$/;"	kind:variable	line:43
+list2	../String_List.py	/^list2 = str(str2.splitlines()).decode('string_escape')$/;"	kind:variable	line:71
+list3	../String_List.py	/^list3 = [7, 3, 8, 5, 9, 0, 1]$/;"	kind:variable	line:61
 loop.py	../loop.py	1;"	kind:file	line:1
 loop_2.py	../loop_2.py	1;"	kind:file	line:1
 m	../python_use_regex.py	/^m = p.findall("zljlrjuaoducomlreaf") # 執行findall方法 將字串帶入re物件(p)的方法中$/;"	kind:variable	line:28
@@ -83,6 +88,9 @@ s	../loop.py	/^s = 0$/;"	kind:variable	line:48
 score	../if_else.py	/^score = int(input("請輸入成績分數=>"))$/;"	kind:variable	line:22
 str1	../String_List.py	/^str1 = "Hello"$/;"	kind:variable	line:9
 str1	../String_List.py	/^str1 = "Test"$/;"	kind:variable	line:4
+str1	../String_List.py	/^str1 = "This is a book that I like"$/;"	kind:variable	line:67
+str1	../String_List.py	/^str1 = str(123456)$/;"	kind:variable	line:63
+str2	../String_List.py	/^str2 = "Email:xxx@kmu.edu.tw \\nName:高煜凱"$/;"	kind:variable	line:70
 str2	../String_List.py	/^str2 = "HelloWakaki"$/;"	kind:variable	line:17
 string	../python_use_regex.py	/^string = 'aAbBcC'   #搜尋字串$/;"	kind:variable	line:6
 string_2	../python_use_regex.py	/^string_2 = 'abdabxacb'$/;"	kind:variable	line:13
@@ -90,8 +98,13 @@ string_3	../python_use_regex.py	/^string_3 = ".abc 123 abc"$/;"	kind:variable	li
 sum_to_summary	../class_funciton_2.py	/^def sum_to_summary(start, end):$/;"	kind:function	line:19
 sum_to_ten	../class_funciton_2.py	/^def sum_to_ten():$/;"	kind:function	line:10
 t	../if_else.py	/^t = float(input("請輸入今天氣溫=>"))$/;"	kind:variable	line:16
+t3	../tuple_dict_set.py	/^t3 = (1, 1, "a", "a", "n", "c", 3, 5,)$/;"	kind:variable	line:24
 test1	../class_function.py	/^def test1(a,b):$/;"	kind:function	line:55
 triangle_print.py	../triangle_print.py	1;"	kind:file	line:1
+tuple_dict_set.py	../tuple_dict_set.py	1;"	kind:file	line:1
+turple1	../tuple_dict_set.py	/^turple1 = () # 空turple$/;"	kind:variable	line:6
+turple2	../tuple_dict_set.py	/^turple2 = (1, "2", 3, "test", 4.1782)$/;"	kind:variable	line:7
+turple3	../tuple_dict_set.py	/^turple3 = turple2[2:4]$/;"	kind:variable	line:18
 var1	../class_function.py	/^    var1 = "Try classmethod"$/;"	kind:variable	line:46
 var1	../class_function.py	/^    var1 = "Try staticmethod"$/;"	kind:variable	line:28
 var1	../input_function_demo.py	/^var1 = int(input("請輸入整數=>"))$/;"	kind:variable	line:4
