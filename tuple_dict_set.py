@@ -96,3 +96,27 @@ E = A.difference(B) # A差集B 或者 A-B (單看A的部份)
 F = A.symmetric_difference(B) # A對稱差集B 或者 A ^ B (A跟B一起看)
 
 print(E,F)
+
+# 快速建立清單跟字典檔案格式的  清單包含與字典包含
+
+list1 = [x for x in range(1,10,2) if x % 3 == 0] # 清單包含
+print(list1)
+
+list2 = ["Tom", "Calvin", "Tony"]
+dict1 = {x:x**3 for x in range(1,5)}
+print(dict1)  # 字典包含 **+數字 表示幾次方
+
+# 格式化字串 使用format() 跟 \逸出字元
+# format() 是使用範本字串來建立輸出字串內容，並且使用{}建立格式碼
+x,y,z = 10,15,25
+s = "Y={a} X={b} Z={c}".format(a=z, b=x, c=y)
+print(s) # a b c 一般預設為索引值
+
+# {} 格式碼 - 引數:[寬度.精準度][型態字元]
+print("整數: {0:5d}".format(123) ) 
+# 引數0 表示第一個位置 5d是指寬度為5位數(不足預設補空白)，d為整數,f為浮點數 s為字串
+# b,o,x 為 二進位 八進位 十六進位
+print("整數: {0:05d}".format(123)) # 05d表示為5位數，但不足要左側補0
+
+#以下為浮點數範例
+print("浮點數:{0:3d} 跟 {1:2.3f}".format(123, 12.31))
