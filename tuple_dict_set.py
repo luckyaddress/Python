@@ -66,4 +66,22 @@ print(d2.values()) # 傳回所有的Value值,並協助排序
 print(d2.get("John")) # 用法有點像是 d2["John"]
 
 
+# Set集合: 無順序的元素集合，每個元素為唯一，使用{}來建立，每個項目使用,號區隔
+s1 = {1,"Hello", 3.45}
+print(s1)
+
+for i in s1:
+    print(i) # 走訪集合中每一個項目
+
+# 新增(add) 更改(update) 刪除(discard, remove, pop, clear) 集合內的元素 
+s1.add("Kitty")
+print(s1)
+s1.update([8, 7, 6])
+print(s1)
+
+s1.discard(6) # discard() 參數要帶入集合中要刪除的那一個值，而非索引值
+print(s1)
+s1.remove(7) #  remove() 參數要帶入集合中要刪除的那一個值，而非索引值，若找不到該值，會回報錯誤
+print(s1) 
+
 
