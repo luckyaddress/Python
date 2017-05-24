@@ -52,3 +52,18 @@ print(d1)
 # 一次清除全部Dict檔案的所有項目: clear()
 d1.clear()
 print(d1) # 會顯示{} 表示所有項目已清空，為空集合
+
+d2 = {"Tom":1, "John":2, "Arthur":3, "Lexus":4}
+d3 = {"Maggie":1, "May":2, "Betty":3, "Wakaki":4}
+print("John" in d2) # 比對Key值
+print("Maggie" not in d3)
+
+print(d2 != d3)
+
+# 字典函數跟字典方法 函數:len() dict() sorted() 方法: pop() clear() get() keys() value()
+print(d2.keys()) # 傳回所有的Key值,並協助排序
+print(d2.values()) # 傳回所有的Value值,並協助排序
+print(d2.get("John")) # 用法有點像是 d2["John"]
+
+
+
