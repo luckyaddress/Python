@@ -85,3 +85,14 @@ s1.remove(7) #  remove() 參數要帶入集合中要刪除的那一個值，而�
 print(s1) 
 
 
+# 集合的 交互運算
+A = {1, 3, 5, 7, 9}
+B = {1, 2, 5, 6, 8}
+C = A.intersection(B) # A交集B 或者 A & B
+D = A.union(B) # A聯集B 或者 A | B
+print(C,D) 
+
+E = A.difference(B) # A差集B 或者 A-B (單看A的部份)
+F = A.symmetric_difference(B) # A對稱差集B 或者 A ^ B (A跟B一起看)
+
+print(E,F)
