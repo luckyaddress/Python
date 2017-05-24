@@ -42,3 +42,13 @@ print(d1)
 # 迴圈取用
 for key in d1:
     print(d1[key])
+
+# 刪除Dict字典檔案型態中的項目
+del d1[2]
+print(d1)
+d1.pop(4) # 刪除並回傳值
+print(d1)
+
+# 一次清除全部Dict檔案的所有項目: clear()
+d1.clear()
+print(d1) # 會顯示{} 表示所有項目已清空，為空集合
