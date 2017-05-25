@@ -14,3 +14,7 @@ random_n = random.randint(1, 100)
 import random as R
 rn_2 = R.randint(20, 60)
 print(random_n, rn_2)
+
+# 僅匯入模組的部份
+from module_example import print_name
+module_example.print_name("Wakaki")

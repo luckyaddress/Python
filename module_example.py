@@ -5,3 +5,6 @@
 def bmi_cal(h,w):
     r = w / h /h
     return r
+
+def print_name(name):
+    print(name)
