@@ -59,3 +59,4 @@ print(s2.name, s2.grade)
 # AttributeError: student2 instance has no attribute 'gender'
 
 # 類別繼承
+
