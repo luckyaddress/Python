@@ -16,5 +16,7 @@ rn_2 = R.randint(20, 60)
 print(random_n, rn_2)
 
 # 僅匯入模組的部份
-from module_example import print_name
+from module_example_2 import print_name
+# import module_example_2 上面為限制模組的部份，僅使用print_name的功能
+# print(module_example_2.gender)
 module_example.print_name("Wakaki")
