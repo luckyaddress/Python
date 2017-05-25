@@ -58,5 +58,30 @@ print(s2.name, s2.grade)
 # 無法直接叫用s2.gender會出現 
 # AttributeError: student2 instance has no attribute 'gender'
 
-# 類別繼承
+# 類別繼承 要調整
 
+# 父類別
+class papa:
+    def __init__(self, name, color):
+        self.name = name
+        self.coloir = color
+    def getColor(self):
+        return self.coloir
+    def setColor(self, color):
+        self.color = color
+    def getName(self):
+        return self.name
+# 子類別
+class  child(papa): # 繼承自papa
+    def __init__(self, name, color, height):
+        super().__init__(name, color) # 呼叫父類別的建構子
+        self.model = model
+    def displayChild(self):
+        print("爸爸的名字 = " + self.getName())
+        print("爸爸的膚色 = " + self.getColor())
+        print("小孩的身高 =" + self.model)
+        super.__init__(name, color)
+
+p1 = papa("王大明", "黃皮膚")
+c1 = child("王小明", "黃皮膚", "187")
+c1.displayChild()
