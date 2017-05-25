@@ -43,10 +43,10 @@ class student2:
     def __init__(self, name, grade, gender):
         self.name = name
         self.grade = grade
-        self.__gender = gender # private 屬性
+        self.__gender = gender # private 屬性 
 
     def __getGender(self):
-        return self.__gender # 在self.之後加上_ _屬性或方法名，表示private屬性或方法
+        return self.__gender # 在self.之後加上__屬性或方法名，表示private屬性或方法
  
     def output_Gender(self):
         print("學生性別" + str(self.__getGender()))
