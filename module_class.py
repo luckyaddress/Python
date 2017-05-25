@@ -36,5 +36,21 @@ class student:
 # 建立一個 student的範例物件
 s1 = student("Wakaki", 98, "female")
 s1.displayGrade() #直接執行s1物件下的displayGrade方法
+print(s1.grade)
 
-    
+# public類別 或 private類別
+class student2:
+    def _ _init_ _(self, name, grade, gender):
+        self.name = name
+        self.grade = grade
+        self._ _gender = gender # private 方法
+
+    def _ _getGender(self):
+        return self._ _gender # 在self.之後加上_ _屬性或方法名，表示private屬性或方法
+ 
+    def output_Gender(self):
+        print("學生性別" + str(self._ _getGender()))
+
+
+s2 = student2("Yukai", 88, "male")
+output_Gender()
