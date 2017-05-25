@@ -57,3 +57,4 @@ s2.output_Gender()
 print(s2.name, s2.grade)  
 # 無法直接叫用s2.gender會出現 
 # AttributeError: student2 instance has no attribute 'gender'
+
