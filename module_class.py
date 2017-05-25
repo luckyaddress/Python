@@ -20,3 +20,14 @@ from module_example_2 import print_name
 # import module_example_2 上面為限制模組的部份，僅使用print_name的功能
 # print(module_example_2.gender)
 module_example.print_name("Wakaki")
+
+# 物件導向 物件與類別
+# 定義類別
+class student:
+    def __init__(self, name, grade, gender):
+        self.name = name
+        self.grade =  grade
+        self.gender = gender
+    
+
+    
