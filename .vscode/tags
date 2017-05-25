@@ -17,9 +17,11 @@ PetShow	../loop.py	/^def PetShow(x):$/;"	kind:function	line:38
 Petname	../loop.py	/^Petname = ['Snoopy', 'Kitty', 'Doraemon', '孫悟空']$/;"	kind:variable	line:42
 Print3	../class_function.py	/^    def Print3(paraTest, x, y):  $/;"	kind:member	line:48
 Python	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
+R	../module_class.py	/^import random as R$/;"	kind:namespace	line:14
 String_List.py	../String_List.py	1;"	kind:file	line:1
 Test1	../class_function.py	/^def Test1():$/;"	kind:function	line:4
 Test2	../class_function.py	/^def Test2(x):$/;"	kind:function	line:9
+__init__	../module_class.py	/^    def __init__(self, name, grade, gender):$/;"	kind:member	line:27
 a	../class_function.py	/^a = Cat()$/;"	kind:variable	line:19
 a	../class_function.py	/^a = dog() #相當於new一個物件，將其實體化$/;"	kind:variable	line:35
 a	../datatype_operator.py	/^a = 1$/;"	kind:variable	line:66
@@ -43,6 +45,7 @@ b	../datatype_operator.py	/^b = a\/5$/;"	kind:variable	line:43
 b	../datatype_operator.py	/^b = str(a)$/;"	kind:variable	line:68
 b	../dict_list_example.py	/^b = "test@google.com"$/;"	kind:variable	line:20
 b	../pyhon_operator.py	/^b = 5 + 3.79$/;"	kind:variable	line:18
+bmi_cal	../module_example.py	/^def bmi_cal(h,w):$/;"	kind:function	line:5
 c	../datatype_operator.py	/^c = 1.0$/;"	kind:variable	line:70
 c	../datatype_operator.py	/^c = a and b$/;"	kind:variable	line:27
 c	../pyhon_operator.py	/^c = (5.0 \/ 9.0) * (f - 32.0)$/;"	kind:variable	line:23
@@ -62,6 +65,7 @@ dict_list_example.py	../dict_list_example.py	1;"	kind:file	line:1
 dog	../class_function.py	/^class dog:$/;"	kind:class	line:27
 f	../pyhon_operator.py	/^f = int(input("請輸入華式溫度=>"))$/;"	kind:variable	line:22
 function_test	../class_funciton_2.py	/^def function_test():$/;"	kind:function	line:5
+gender	../module_example_2.py	/^gender = "female"$/;"	kind:variable	line:5
 girlprint	../loop.py	/^def girlprint(name):$/;"	kind:function	line:26
 girls	../loop.py	/^girls = ['Nancy', 'Stacey', 'Tracy', 'Wakaki']$/;"	kind:variable	line:30
 guess	../loop_2.py	/^    guess = int(input("請輸入猜測的數字=>"))$/;"	kind:variable	line:29
@@ -85,16 +89,26 @@ match_string_2	../python_use_regex.py	/^match_string_2 = re.search(pattern_2,str
 match_string_3	../python_use_regex.py	/^match_string_3 = re.search(pattern_3,string_3)$/;"	kind:variable	line:22
 meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:15
 meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:69
+module_class.py	../module_class.py	1;"	kind:file	line:1
+module_example	../module_class.py	/^import module_example  # 匯入模組後，下方即可使用該模組的方法或變數$/;"	kind:namespace	line:5
+module_example.py	../module_example.py	1;"	kind:file	line:1
+module_example_2.py	../module_example_2.py	1;"	kind:file	line:1
 p	../pyhon_operator.py	/^p = y \/\/ float(x)$/;"	kind:variable	line:11
 p	../python_use_regex.py	/^p = re.compile(r"[a-z]")$/;"	kind:variable	line:27
 pattern	../python_use_regex.py	/^pattern = '[abc]'   #設定正規式要搜尋的pattern$/;"	kind:variable	line:5
 pattern_2	../python_use_regex.py	/^pattern_2 = r'ab.'   # r 表示 raw string，不做特殊處理，另外+號表示1個或1個以上的關鍵字，寫在pattern字串內 $/;"	kind:variable	line:12
 pattern_3	../python_use_regex.py	/^pattern_3 = r"\\.\\w+"  # \\. 表示 . 因為Regex中 . 表示單一任意字元$/;"	kind:variable	line:20
 pig	../class_function.py	/^class pig:$/;"	kind:class	line:44
+print_name	../module_class.py	/^from module_example_2 import print_name$/;"	kind:namespace	line:19
+print_name	../module_example.py	/^def print_name(name):$/;"	kind:function	line:9
+print_name	../module_example_2.py	/^def print_name(name):$/;"	kind:function	line:7
 pyhon_operator.py	../pyhon_operator.py	1;"	kind:file	line:1
 python_use_regex.py	../python_use_regex.py	1;"	kind:file	line:1
+random	../module_class.py	/^import random$/;"	kind:namespace	line:12
+random_n	../module_class.py	/^random_n = random.randint(1, 100)$/;"	kind:variable	line:13
 re	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
 regex	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
+rn_2	../module_class.py	/^rn_2 = R.randint(20, 60)$/;"	kind:variable	line:15
 s	../loop.py	/^s = 0$/;"	kind:variable	line:48
 s1	../tuple_dict_set.py	/^s1 = {1,"Hello", 3.45}$/;"	kind:variable	line:70
 score	../if_else.py	/^score = int(input("請輸入成績分數=>"))$/;"	kind:variable	line:22
@@ -107,6 +121,7 @@ str2	../String_List.py	/^str2 = "HelloWakaki"$/;"	kind:variable	line:17
 string	../python_use_regex.py	/^string = 'aAbBcC'   #搜尋字串$/;"	kind:variable	line:6
 string_2	../python_use_regex.py	/^string_2 = 'abdabxacb'$/;"	kind:variable	line:13
 string_3	../python_use_regex.py	/^string_3 = ".abc 123 abc"$/;"	kind:variable	line:21
+student	../module_class.py	/^class student:$/;"	kind:class	line:26
 sum_to_summary	../class_funciton_2.py	/^def sum_to_summary(start, end):$/;"	kind:function	line:19
 sum_to_ten	../class_funciton_2.py	/^def sum_to_ten():$/;"	kind:function	line:10
 t	../if_else.py	/^t = float(input("請輸入今天氣溫=>"))$/;"	kind:variable	line:16
@@ -125,6 +140,7 @@ var2	../input_function_demo.py	/^var2 = float(input("請輸入浮點數=>"))$/;"
 voice	../class_function.py	/^    def voice(self, a, b): #self表示這個類別本身$/;"	kind:member	line:65
 wow	../class_function.py	/^    def wow(x,y):$/;"	kind:member	line:30
 x	../datatype_operator.py	/^x = a or b$/;"	kind:variable	line:29
+x	../module_class.py	/^x = module_example.bmi_cal(1.79, 0.95)$/;"	kind:variable	line:7
 x	../python_use_regex.py	/^x = match_string$/;"	kind:variable	line:9
 x_2	../python_use_regex.py	/^x_2 = match_string_2.group()$/;"	kind:variable	line:16
 x_3	../python_use_regex.py	/^x_3 = match_string_3.group()$/;"	kind:variable	line:23

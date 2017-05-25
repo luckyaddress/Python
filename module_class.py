@@ -24,10 +24,17 @@ module_example.print_name("Wakaki")
 # 物件導向 物件與類別
 # 定義類別
 class student:
-    def __init__(self, name, grade, gender):
+    def __init__(self, name, grade, gender): # 類別建構子，可用來建立類別中的物件屬性
         self.name = name
         self.grade =  grade
         self.gender = gender
-    
+    def displayGrade(self):
+        print("學生姓名"+ self.name)
+        print("分數成績"+ str(self.grade))
+        print("學生性別"+ self.gender)
+
+# 建立一個 student的範例物件
+s1 = student("Wakaki", 98, "female")
+s1.displayGrade() #直接執行s1物件下的displayGrade方法
 
     
