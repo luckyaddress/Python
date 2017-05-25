@@ -9,3 +9,8 @@ x = module_example.bmi_cal(1.79, 0.95)
 print(x)
 
 # Python亦可匯入內建模組,並使用別名來呼叫模組
+import random
+random_n = random.randint(1, 100)
+import random as R
+rn_2 = R.randint(20, 60)
+print(random_n, rn_2)
