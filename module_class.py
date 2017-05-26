@@ -61,27 +61,18 @@ print(s2.name, s2.grade)
 # 類別繼承 要調整
 
 # 父類別
-class papa:
-    def __init__(self, name, color):
+class papa(object):  # 父類別要先繼承object的類別，才能給予他人繼承
+    def __init__(self, name):
         self.name = name
-        self.coloir = color
-    def getColor(self):
-        return self.coloir
-    def setColor(self, color):
-        self.color = color
-    def getName(self):
-        return self.name
+        print(name)
+
+p1 = papa("爸爸")
+    
 # 子類別
 class  child(papa): # 繼承自papa
-    def __init__(self, name, color, height):
-        super().__init__(name, color) # 呼叫父類別的建構子
-        self.model = model
-    def displayChild(self):
-        print("爸爸的名字 = " + self.getName())
-        print("爸爸的膚色 = " + self.getColor())
-        print("小孩的身高 =" + self.model)
-        super.__init__(name, color)
+    def __init__(self, name, color): # 繼承而來的變數只有一個name, 到子類別自己多一個變數color
+        super(child, self).__init__(name) # super()內部是子類別，呼叫父類別的屬性並初始化
+        self.color = color  # 初始化子類別的屬性及相關方法
+        print(color)
 
-p1 = papa("王大明", "黃皮膚")
-c1 = child("王小明", "黃皮膚", "187")
-c1.displayChild()
+c1 = child("小孩", "黃皮膚")
