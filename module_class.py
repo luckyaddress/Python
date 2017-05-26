@@ -65,8 +65,12 @@ class papa(object):  # 父類別要先繼承object的類別，才能給予他人
     def __init__(self, name):
         self.name = name
         print(name)
+    def setName(self, new_name):
+        self.name = new_name
+        print(new_name)
 
 p1 = papa("爸爸")
+p1.setName("乾爹")
     
 # 子類別
 class  child(papa): # 繼承自papa
@@ -74,5 +78,12 @@ class  child(papa): # 繼承自papa
         super(child, self).__init__(name) # super()內部是子類別，呼叫父類別的屬性並初始化
         self.color = color  # 初始化子類別的屬性及相關方法
         print(color)
+    
+    def setColor(self, name, new_color):  # 設定一個新方法，繼承父類別，並且可更改子類別的屬性
+        super(child, self).__init__(name)
+        self.color = new_color
+        print(new_color) 
 
 c1 = child("小孩", "黃皮膚")
+c1.setName("孫子") # 繼承自父類別的方法，只能有一個引數
+c1.setColor("孫孫子", "黑人") #繼承父類別的方法，並且使用子類別的方法
