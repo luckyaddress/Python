@@ -84,6 +84,16 @@ class  child(papa): # 繼承自papa
         self.color = new_color
         print(new_color) 
 
+    def setName(self, name, color, height):
+        self.name = name
+        self.color = color
+        self.height = height
+        print(name, color, height)
+
 c1 = child("小孩", "黃皮膚")
-c1.setName("孫子") # 繼承自父類別的方法，只能有一個引數
+c1.setName("MaMa", "White", "188") 
+# 繼承自父類別的方法，原先只能有一個引數，但可以用成同名方法，此時
+# 呼叫的會是子類別自己的方法，而非父類別的一個引數的方法
+
 c1.setColor("孫孫子", "黑人") #繼承父類別的方法，並且使用子類別的方法
+
