@@ -97,3 +97,11 @@ c1.setName("MaMa", "White", "188")
 
 c1.setColor("孫孫子", "黑人") #繼承父類別的方法，並且使用子類別的方法
 
+
+# 檢查物件所屬類別 使用isinstance()來檢查物件所屬類別
+
+b = isinstance(c1,child)
+c = isinstance(c1,papa) # 因為有繼承關係 所以子是由父類別生
+d = isinstance(p1,child) # 子不可能生出父類別
+e = isinstance(p1,papa)
+print(b, c, d, e`)
