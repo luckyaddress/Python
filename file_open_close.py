@@ -11,3 +11,9 @@ python_file = open("Python_test.txt", "r")
 str1 = python_file.read()
 print("以下列印檔案內容")
 print(str1)
+
+fp = open("Python_test.txt", "r") 
+line1 =  fp.readlines()  # 將開啟的檔案內容，逐行變成一個list的資料型態
+print("以下為逐行列印檔案內容")
+for x in line1:
+    print(x)
