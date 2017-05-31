@@ -6,4 +6,6 @@ python_file = open("Python_test.txt", "a")
 python_file.write("測試加入第一行\n")
 python_file.write("測試加入第二行\n")
 
-python_file.close()
+
+# python_file.close()
+
