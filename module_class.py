@@ -104,4 +104,4 @@ b = isinstance(c1,child)
 c = isinstance(c1,papa) # 因為有繼承關係 所以子是由父類別生
 d = isinstance(p1,child) # 子不可能生出父類別
 e = isinstance(p1,papa)
-print(b, c, d, e`)
+print(b, c, d, e)
