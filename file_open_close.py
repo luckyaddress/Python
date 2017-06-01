@@ -17,3 +17,21 @@ line1 =  fp.readlines()  # 將開啟的檔案內容，逐行變成一個list的�
 print("以下為逐行列印檔案內容")
 for x in line1:
     print(x)
+
+
+fp2 = open("Python_test.txt", "r")
+str2 = fp2.read(9) # read中的參數，可限制讀取多少字元
+print(str2)
+
+fp3 = open("Python_test.txt", "r")
+for line2 in fp3:
+    print(line2)  # 使用for迴圈來讀取每一行
+
+# 二進位檔案讀寫 並非內建，，需要import pickle模組
+import pickle
+fp_b = open ("note.dat", "wb") # 二進位要加上一個b, 讀取是rb
+# 二進位檔案寫入
+pickle.dump("第一行測試", fp_b)
+pickle.dump(2, fp_b)
+pickle.dump([4,5,6,7], fp_b)
+fp_b.close()
