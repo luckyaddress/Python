@@ -75,6 +75,8 @@ displayGrade	../module_class.py	/^    def displayGrade(self):$/;"	kind:member	li
 dog	../class_function.py	/^class dog:$/;"	kind:class	line:27
 e	../module_class.py	/^e = isinstance(p1,papa)$/;"	kind:variable	line:106
 f	../pyhon_operator.py	/^f = int(input("請輸入華式溫度=>"))$/;"	kind:variable	line:22
+file_open_close.py	../file_open_close.py	1;"	kind:file	line:1
+fp	../file_open_close.py	/^fp = open("Python_test.txt", "r") $/;"	kind:variable	line:15
 function_test	../class_funciton_2.py	/^def function_test():$/;"	kind:function	line:5
 gender	../module_example_2.py	/^gender = "female"$/;"	kind:variable	line:5
 girlprint	../loop.py	/^def girlprint(name):$/;"	kind:function	line:26
@@ -84,6 +86,7 @@ i	../loop.py	/^i = 0$/;"	kind:variable	line:19
 if_else.py	../if_else.py	1;"	kind:file	line:1
 import	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
 input_function_demo.py	../input_function_demo.py	1;"	kind:file	line:1
+line1	../file_open_close.py	/^line1 =  fp.readlines()  # 將開啟的檔案內容，逐行變成一個list的資料型態$/;"	kind:variable	line:16
 list1	../String_List.py	/^list1 = [1, "2", [3, 4 , 5]] # list具有巢狀之功能$/;"	kind:variable	line:34
 list1	../String_List.py	/^list1 = [1, 2, 3, 4, 5, 6, 7, 8]$/;"	kind:variable	line:57
 list1	../String_List.py	/^list1 = str1.split()$/;"	kind:variable	line:68
@@ -117,6 +120,7 @@ print_name	../module_class.py	/^from module_example_2 import print_name$/;"	kind
 print_name	../module_example.py	/^def print_name(name):$/;"	kind:function	line:9
 print_name	../module_example_2.py	/^def print_name(name):$/;"	kind:function	line:7
 pyhon_operator.py	../pyhon_operator.py	1;"	kind:file	line:1
+python_file	../file_open_close.py	/^python_file = open("Python_test.txt", "r") $/;"	kind:variable	line:3
 python_use_regex.py	../python_use_regex.py	1;"	kind:file	line:1
 random	../module_class.py	/^import random$/;"	kind:namespace	line:12
 random_n	../module_class.py	/^random_n = random.randint(1, 100)$/;"	kind:variable	line:13
@@ -135,6 +139,7 @@ str1	../String_List.py	/^str1 = "Hello"$/;"	kind:variable	line:9
 str1	../String_List.py	/^str1 = "Test"$/;"	kind:variable	line:4
 str1	../String_List.py	/^str1 = "This is a book that I like"$/;"	kind:variable	line:67
 str1	../String_List.py	/^str1 = str(123456)$/;"	kind:variable	line:63
+str1	../file_open_close.py	/^str1 = python_file.read()$/;"	kind:variable	line:11
 str2	../String_List.py	/^str2 = "Email:xxx@kmu.edu.tw \\nName:高煜凱"$/;"	kind:variable	line:70
 str2	../String_List.py	/^str2 = "HelloWakaki"$/;"	kind:variable	line:17
 string	../python_use_regex.py	/^string = 'aAbBcC'   #搜尋字串$/;"	kind:variable	line:6
