@@ -36,3 +36,9 @@ pickle.dump(2, fp_b)
 pickle.dump([4,5,6,7], fp_b)
 fp_b.close()
 
+# 二進位檔案讀取
+fp_3 = open("note.dat", "rb")
+for i in range(0,3,1):
+    str_x = "str" + str(i) # 組成一個變數，指定給load函數
+    str_x = pickle.load(fp_3)
+    print("列印內容"+ str(str_x)) # 可以用迴圈逐一讀取
