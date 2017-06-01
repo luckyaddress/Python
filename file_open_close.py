@@ -30,8 +30,9 @@ for line2 in fp3:
 # 二進位檔案讀寫 並非內建，，需要import pickle模組
 import pickle
 fp_b = open ("note.dat", "wb") # 二進位要加上一個b, 讀取是rb
-# 二進位檔案寫入
+# 二進位檔案寫入 執行完後資料夾下會產生二進位檔 note.dat
 pickle.dump("第一行測試", fp_b)
 pickle.dump(2, fp_b)
 pickle.dump([4,5,6,7], fp_b)
 fp_b.close()
+
