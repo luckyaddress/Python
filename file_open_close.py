@@ -42,3 +42,11 @@ for i in range(0,3,1):
     str_x = "str" + str(i) # 組成一個變數，指定給load函數
     str_x = pickle.load(fp_3)
     print("列印內容"+ str(str_x)) # 可以用迴圈逐一讀取
+
+# 另外一種寫法
+fp_4= open("note.dat", "rb")
+for i in range(3):
+    str_x = "str{}"
+    new_str_x = str_x.format(i)
+    new_str_x = pickle.load(fp_4)
+    print("列印內容"+str(new_str_x))
