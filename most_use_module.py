@@ -5,3 +5,38 @@
 import os
 path = os.getcwd() # 取得現在工作目錄
 print(path)  
+
+print(os.listdir(path))  # 取得路徑下的檔案 和 目錄清單
+
+# os.mkdir("os_module_test") # 建立新目錄 如果目錄已存在，會出現目錄同名無法建立的錯誤
+
+# os.rename("os_module_test", "omt") # 更名現有目錄
+
+# os.rmdir("omt") # 刪除目錄
+
+# 建立檔案 刪除檔案 因為建立後刪除 同時只能完成一個動作，否則刪除會通知找不到檔案
+
+#file = open("aa.txt", "w")
+#file.close()
+#print("建立檔案:", os.listdir(path))
+
+# 先建立，方能測試刪除
+# os.remove("aa.txt")
+# print("測試檔案", os.listdir(path))
+
+# os.path模組:檢查檔案或目錄是否存在
+
+files = (os.getcwd(), "loop2.py")
+for f in files:
+    print("該項目為 = " + str(f))
+    if os.path.exists(f):
+        print("檔案或目錄存在")
+    if os.path.isdir(f):
+        print("該檔案是目錄")
+    if os.path.isfile(f):
+        print("該檔案是檔案")
+
+
+
+
+
