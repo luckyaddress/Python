@@ -45,7 +45,9 @@ list1 = ["apple", "orange", "strawberry", "juice", "roasted-beef"]
 r2 = random.choice(list1) # choice 在清單的資料型態中任意抽選一個
 print(r2)
 
-# Python時間模組
+# Python時間模組 time模組顯示時間與日期 calendar模組顯示月曆資料
+
+
 
 
 
