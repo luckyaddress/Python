@@ -47,7 +47,9 @@ print(r2)
 
 # Python時間模組 time模組顯示時間與日期 calendar模組顯示月曆資料
 
-
+import time
+time_1 = time.time()
+print(time_1)
 
 
 
