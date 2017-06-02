@@ -9,4 +9,15 @@ try:
 except:
     print("錯誤，檔案不存在！")
 
-# 同時處理多種例外
+# else 跟 Finally區塊
+try:
+    n1 = input("輸入第一個整數值 =>")
+    n2 = float(input("輸入第二個整數值 =>"))  # 要用int / float才能呈現小數點
+    r = n1 / n2
+    print("變數r的值 = {0:2f} ".format(r))
+except:
+    print("錯誤:輸入的資料與運算有錯誤")
+else:
+    print("ELSE:輸入的資料沒有錯誤")
+finally:
+    print("Finally:您有輸入資料")
