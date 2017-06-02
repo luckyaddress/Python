@@ -52,7 +52,8 @@ time_1 = time.time()
 print(time_1)
 
 localtime = time.localtime(time_1)
-print("年:", localtime[0], "月", localtime[1])
+print("Year", localtime[0], "Month", localtime[1])
+# 年月日時分秒 分別為: localtime[0]-[5]
 
 
 
