@@ -51,7 +51,8 @@ import time
 time_1 = time.time()
 print(time_1)
 
-
+localtime = time.localtime(time_1)
+print("年:", localtime[0])
 
 
 
