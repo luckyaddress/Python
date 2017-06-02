@@ -74,9 +74,15 @@ dict_list_example.py	../dict_list_example.py	1;"	kind:file	line:1
 displayGrade	../module_class.py	/^    def displayGrade(self):$/;"	kind:member	line:31
 dog	../class_function.py	/^class dog:$/;"	kind:class	line:27
 e	../module_class.py	/^e = isinstance(p1,papa)$/;"	kind:variable	line:106
+exceptIon_deal.py	../exceptIon_deal.py	1;"	kind:file	line:1
 f	../pyhon_operator.py	/^f = int(input("請輸入華式溫度=>"))$/;"	kind:variable	line:22
 file_open_close.py	../file_open_close.py	1;"	kind:file	line:1
 fp	../file_open_close.py	/^fp = open("Python_test.txt", "r") $/;"	kind:variable	line:15
+fp2	../file_open_close.py	/^fp2 = open("Python_test.txt", "r")$/;"	kind:variable	line:22
+fp3	../file_open_close.py	/^fp3 = open("Python_test.txt", "r")$/;"	kind:variable	line:26
+fp_3	../file_open_close.py	/^fp_3 = open("note.dat", "rb")$/;"	kind:variable	line:40
+fp_4	../file_open_close.py	/^fp_4= open("note.dat", "rb")$/;"	kind:variable	line:47
+fp_b	../file_open_close.py	/^fp_b = open ("note.dat", "wb") # 二進位要加上一個b, 讀取是rb$/;"	kind:variable	line:32
 function_test	../class_funciton_2.py	/^def function_test():$/;"	kind:function	line:5
 gender	../module_example_2.py	/^gender = "female"$/;"	kind:variable	line:5
 girlprint	../loop.py	/^def girlprint(name):$/;"	kind:function	line:26
@@ -107,6 +113,8 @@ module_class.py	../module_class.py	1;"	kind:file	line:1
 module_example	../module_class.py	/^import module_example  # 匯入模組後，下方即可使用該模組的方法或變數$/;"	kind:namespace	line:5
 module_example.py	../module_example.py	1;"	kind:file	line:1
 module_example_2.py	../module_example_2.py	1;"	kind:file	line:1
+new_str_x	../file_open_close.py	/^    new_str_x = pickle.load(fp_4)$/;"	kind:variable	line:51
+new_str_x	../file_open_close.py	/^    new_str_x = str_x.format(i)$/;"	kind:variable	line:50
 output_Gender	../module_class.py	/^    def output_Gender(self):$/;"	kind:member	line:51
 p	../pyhon_operator.py	/^p = y \/\/ float(x)$/;"	kind:variable	line:11
 p	../python_use_regex.py	/^p = re.compile(r"[a-z]")$/;"	kind:variable	line:27
@@ -115,6 +123,7 @@ papa	../module_class.py	/^class papa(object):  # 父類別要先繼承object的�
 pattern	../python_use_regex.py	/^pattern = '[abc]'   #設定正規式要搜尋的pattern$/;"	kind:variable	line:5
 pattern_2	../python_use_regex.py	/^pattern_2 = r'ab.'   # r 表示 raw string，不做特殊處理，另外+號表示1個或1個以上的關鍵字，寫在pattern字串內 $/;"	kind:variable	line:12
 pattern_3	../python_use_regex.py	/^pattern_3 = r"\\.\\w+"  # \\. 表示 . 因為Regex中 . 表示單一任意字元$/;"	kind:variable	line:20
+pickle	../file_open_close.py	/^import pickle$/;"	kind:namespace	line:31
 pig	../class_function.py	/^class pig:$/;"	kind:class	line:44
 print_name	../module_class.py	/^from module_example_2 import print_name$/;"	kind:namespace	line:19
 print_name	../module_example.py	/^def print_name(name):$/;"	kind:function	line:9
@@ -142,6 +151,10 @@ str1	../String_List.py	/^str1 = str(123456)$/;"	kind:variable	line:63
 str1	../file_open_close.py	/^str1 = python_file.read()$/;"	kind:variable	line:11
 str2	../String_List.py	/^str2 = "Email:xxx@kmu.edu.tw \\nName:高煜凱"$/;"	kind:variable	line:70
 str2	../String_List.py	/^str2 = "HelloWakaki"$/;"	kind:variable	line:17
+str2	../file_open_close.py	/^str2 = fp2.read(9) # read中的參數，可限制讀取多少字元$/;"	kind:variable	line:23
+str_x	../file_open_close.py	/^    str_x = "str" + str(i) # 組成一個變數，指定給load函數$/;"	kind:variable	line:42
+str_x	../file_open_close.py	/^    str_x = "str{}"$/;"	kind:variable	line:49
+str_x	../file_open_close.py	/^    str_x = pickle.load(fp_3)$/;"	kind:variable	line:43
 string	../python_use_regex.py	/^string = 'aAbBcC'   #搜尋字串$/;"	kind:variable	line:6
 string_2	../python_use_regex.py	/^string_2 = 'abdabxacb'$/;"	kind:variable	line:13
 string_3	../python_use_regex.py	/^string_3 = ".abc 123 abc"$/;"	kind:variable	line:21
