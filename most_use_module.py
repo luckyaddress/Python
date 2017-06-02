@@ -26,7 +26,7 @@ print(os.listdir(path))  # 取得路徑下的檔案 和 目錄清單
 
 # os.path模組:檢查檔案或目錄是否存在
 
-files = (os.getcwd(), "loop2.py")
+files = (os.getcwd(), "loop_2.py")
 for f in files:
     print("該項目為 = " + str(f))
     if os.path.exists(f):
