@@ -113,6 +113,8 @@ module_class.py	../module_class.py	1;"	kind:file	line:1
 module_example	../module_class.py	/^import module_example  # 匯入模組後，下方即可使用該模組的方法或變數$/;"	kind:namespace	line:5
 module_example.py	../module_example.py	1;"	kind:file	line:1
 module_example_2.py	../module_example_2.py	1;"	kind:file	line:1
+n1	../exceptIon_deal.py	/^    n1 = input("輸入第一個整數值 =>")$/;"	kind:variable	line:14
+n2	../exceptIon_deal.py	/^    n2 = float(input("輸入第二個整數值 =>"))  # 要用int \/ float才能呈現小數點$/;"	kind:variable	line:15
 new_str_x	../file_open_close.py	/^    new_str_x = pickle.load(fp_4)$/;"	kind:variable	line:51
 new_str_x	../file_open_close.py	/^    new_str_x = str_x.format(i)$/;"	kind:variable	line:50
 output_Gender	../module_class.py	/^    def output_Gender(self):$/;"	kind:member	line:51
@@ -131,6 +133,7 @@ print_name	../module_example_2.py	/^def print_name(name):$/;"	kind:function	line
 pyhon_operator.py	../pyhon_operator.py	1;"	kind:file	line:1
 python_file	../file_open_close.py	/^python_file = open("Python_test.txt", "r") $/;"	kind:variable	line:3
 python_use_regex.py	../python_use_regex.py	1;"	kind:file	line:1
+r	../exceptIon_deal.py	/^    r = n1 \/ n2$/;"	kind:variable	line:16
 random	../module_class.py	/^import random$/;"	kind:namespace	line:12
 random_n	../module_class.py	/^random_n = random.randint(1, 100)$/;"	kind:variable	line:13
 re	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
@@ -166,6 +169,7 @@ t	../if_else.py	/^t = float(input("請輸入今天氣溫=>"))$/;"	kind:variable	
 t3	../tuple_dict_set.py	/^t3 = (1, 1, "a", "a", "n", "c", 3, 5,)$/;"	kind:variable	line:24
 test1	../class_function.py	/^def test1(a,b):$/;"	kind:function	line:55
 triangle_print.py	../triangle_print.py	1;"	kind:file	line:1
+try_open	../exceptIon_deal.py	/^    try_open = open("Exception.txt", "r")$/;"	kind:variable	line:6
 tuple_dict_set.py	../tuple_dict_set.py	1;"	kind:file	line:1
 turple1	../tuple_dict_set.py	/^turple1 = () # 空turple$/;"	kind:variable	line:6
 turple2	../tuple_dict_set.py	/^turple2 = (1, "2", 3, "test", 4.1782)$/;"	kind:variable	line:7
