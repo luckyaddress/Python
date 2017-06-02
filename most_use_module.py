@@ -36,7 +36,16 @@ for f in files:
     if os.path.isfile(f):
         print("該檔案是檔案")
 
+# 數學函數與亂數 import math 或者 random
+import random
+r1 = random.randint(1,20)
+print(str(r1))
 
+list1 = ["apple", "orange", "strawberry", "juice", "roasted-beef"]
+r2 = random.choice(list1) # choice 在清單的資料型態中任意抽選一個
+print(r2)
+
+# Python時間模組
 
 
 
