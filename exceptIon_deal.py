@@ -8,3 +8,5 @@ try:
     try_open.close()
 except:
     print("錯誤，檔案不存在！")
+
+# 同時處理多種例外
