@@ -76,3 +76,13 @@ print(match_string.group())
 # 群組抓取，上述的字串已經分割成群組
 print(match_string.group(1))
 print(match_string.group(2))
+
+# re正規表達式的 findall()方法 --seacrh()只能找到一次，要找出所有符合的，要用findall()
+source_data2 = "my name is kao and email is ykk@gmail.com, your name is wakaki and email is wakaki@gmail.com"
+match_string2 = re.findall(r"([\w.-]+)@([A-Za-z0-9_.-]+)", source_data2)
+print(match_string2)   # 會變成一個二維的list
+print(match_string2[0][0])
+print(match_string2[0][1])
+print(match_string2[1][0])
+print(match_string2[1][1])
+
