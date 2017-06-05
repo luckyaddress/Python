@@ -8,7 +8,7 @@ def display(name, num):
     i = 1
     while i <= 5:
         time.sleep(random.randint(1, 3))
-        print(name + str(num) + " =", i)
+        print(str(name).decode('string_escape') + str(num) + " =", i)
         i +=1
     
 thread1 = threading.Thread(target=display, args=("執行緒",1))
