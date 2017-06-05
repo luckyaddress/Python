@@ -6,7 +6,7 @@
 import threading, time, random
 def display(name, num):
     i = 1
-    while True:
+    while i <= 5:
         time.sleep(random.randint(1, 3))
         print(name + str(num) + " =", i)
         i +=1
