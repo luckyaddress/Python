@@ -55,5 +55,15 @@ localtime = time.localtime(time_1)
 print("Year", localtime[0], "Month", localtime[1])
 # 年月日時分秒 分別為: localtime[0]-[5]
 
+# calendar模組 顯示指定年份和月份資料(以月曆形式顯示)
+import calendar
+cal = calendar.month(2017,4)
+print(cal)
 
+# 精確表示浮點數 decimal模組
+import decimal
+decimal.getcontext().prec = 7 # 指定小數點精確度
+print(decimal.Decimal(7.6) + decimal.Decimal(8.7))
 
+# 正規運算式 re模組 
+import re
