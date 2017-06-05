@@ -77,6 +77,7 @@ e	../module_class.py	/^e = isinstance(p1,papa)$/;"	kind:variable	line:106
 exceptIon_deal.py	../exceptIon_deal.py	1;"	kind:file	line:1
 f	../pyhon_operator.py	/^f = int(input("請輸入華式溫度=>"))$/;"	kind:variable	line:22
 file_open_close.py	../file_open_close.py	1;"	kind:file	line:1
+files	../most_use_module.py	/^files = (os.getcwd(), "loop_2.py")$/;"	kind:variable	line:29
 fp	../file_open_close.py	/^fp = open("Python_test.txt", "r") $/;"	kind:variable	line:15
 fp2	../file_open_close.py	/^fp2 = open("Python_test.txt", "r")$/;"	kind:variable	line:22
 fp3	../file_open_close.py	/^fp3 = open("Python_test.txt", "r")$/;"	kind:variable	line:26
@@ -96,11 +97,13 @@ line1	../file_open_close.py	/^line1 =  fp.readlines()  # 將開啟的檔案內�
 list1	../String_List.py	/^list1 = [1, "2", [3, 4 , 5]] # list具有巢狀之功能$/;"	kind:variable	line:34
 list1	../String_List.py	/^list1 = [1, 2, 3, 4, 5, 6, 7, 8]$/;"	kind:variable	line:57
 list1	../String_List.py	/^list1 = str1.split()$/;"	kind:variable	line:68
+list1	../most_use_module.py	/^list1 = ["apple", "orange", "strawberry", "juice", "roasted-beef"]$/;"	kind:variable	line:44
 list1	../tuple_dict_set.py	/^list1 = [x for x in range(1,10,2) if x % 3 == 0] # 清單包含$/;"	kind:variable	line:102
 list2	../String_List.py	/^list2 = [1, 2, [3, 4, 5], 6, 7, 8]$/;"	kind:variable	line:43
 list2	../String_List.py	/^list2 = str(str2.splitlines()).decode('string_escape')$/;"	kind:variable	line:71
 list2	../tuple_dict_set.py	/^list2 = ["Tom", "Calvin", "Tony"]$/;"	kind:variable	line:105
 list3	../String_List.py	/^list3 = [7, 3, 8, 5, 9, 0, 1]$/;"	kind:variable	line:61
+localtime	../most_use_module.py	/^localtime = time.localtime(time_1)$/;"	kind:variable	line:54
 loop.py	../loop.py	1;"	kind:file	line:1
 loop_2.py	../loop_2.py	1;"	kind:file	line:1
 m	../python_use_regex.py	/^m = p.findall("zljlrjuaoducomlreaf") # 執行findall方法 將字串帶入re物件(p)的方法中$/;"	kind:variable	line:28
@@ -113,15 +116,18 @@ module_class.py	../module_class.py	1;"	kind:file	line:1
 module_example	../module_class.py	/^import module_example  # 匯入模組後，下方即可使用該模組的方法或變數$/;"	kind:namespace	line:5
 module_example.py	../module_example.py	1;"	kind:file	line:1
 module_example_2.py	../module_example_2.py	1;"	kind:file	line:1
+most_use_module.py	../most_use_module.py	1;"	kind:file	line:1
 n1	../exceptIon_deal.py	/^    n1 = input("輸入第一個整數值 =>")$/;"	kind:variable	line:14
 n2	../exceptIon_deal.py	/^    n2 = float(input("輸入第二個整數值 =>"))  # 要用int \/ float才能呈現小數點$/;"	kind:variable	line:15
 new_str_x	../file_open_close.py	/^    new_str_x = pickle.load(fp_4)$/;"	kind:variable	line:51
 new_str_x	../file_open_close.py	/^    new_str_x = str_x.format(i)$/;"	kind:variable	line:50
+os	../most_use_module.py	/^import os$/;"	kind:namespace	line:5
 output_Gender	../module_class.py	/^    def output_Gender(self):$/;"	kind:member	line:51
 p	../pyhon_operator.py	/^p = y \/\/ float(x)$/;"	kind:variable	line:11
 p	../python_use_regex.py	/^p = re.compile(r"[a-z]")$/;"	kind:variable	line:27
 p1	../module_class.py	/^p1 = papa("爸爸")$/;"	kind:variable	line:72
 papa	../module_class.py	/^class papa(object):  # 父類別要先繼承object的類別，才能給予他人繼承$/;"	kind:class	line:64
+path	../most_use_module.py	/^path = os.getcwd() # 取得現在工作目錄$/;"	kind:variable	line:6
 pattern	../python_use_regex.py	/^pattern = '[abc]'   #設定正規式要搜尋的pattern$/;"	kind:variable	line:5
 pattern_2	../python_use_regex.py	/^pattern_2 = r'ab.'   # r 表示 raw string，不做特殊處理，另外+號表示1個或1個以上的關鍵字，寫在pattern字串內 $/;"	kind:variable	line:12
 pattern_3	../python_use_regex.py	/^pattern_3 = r"\\.\\w+"  # \\. 表示 . 因為Regex中 . 表示單一任意字元$/;"	kind:variable	line:20
@@ -134,7 +140,10 @@ pyhon_operator.py	../pyhon_operator.py	1;"	kind:file	line:1
 python_file	../file_open_close.py	/^python_file = open("Python_test.txt", "r") $/;"	kind:variable	line:3
 python_use_regex.py	../python_use_regex.py	1;"	kind:file	line:1
 r	../exceptIon_deal.py	/^    r = n1 \/ n2$/;"	kind:variable	line:16
+r1	../most_use_module.py	/^r1 = random.randint(1,20)$/;"	kind:variable	line:41
+r2	../most_use_module.py	/^r2 = random.choice(list1) # choice 在清單的資料型態中任意抽選一個$/;"	kind:variable	line:45
 random	../module_class.py	/^import random$/;"	kind:namespace	line:12
+random	../most_use_module.py	/^import random$/;"	kind:namespace	line:40
 random_n	../module_class.py	/^random_n = random.randint(1, 100)$/;"	kind:variable	line:13
 re	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
 regex	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
@@ -168,6 +177,8 @@ sum_to_ten	../class_funciton_2.py	/^def sum_to_ten():$/;"	kind:function	line:10
 t	../if_else.py	/^t = float(input("請輸入今天氣溫=>"))$/;"	kind:variable	line:16
 t3	../tuple_dict_set.py	/^t3 = (1, 1, "a", "a", "n", "c", 3, 5,)$/;"	kind:variable	line:24
 test1	../class_function.py	/^def test1(a,b):$/;"	kind:function	line:55
+time	../most_use_module.py	/^import time$/;"	kind:namespace	line:50
+time_1	../most_use_module.py	/^time_1 = time.time()$/;"	kind:variable	line:51
 triangle_print.py	../triangle_print.py	1;"	kind:file	line:1
 try_open	../exceptIon_deal.py	/^    try_open = open("Exception.txt", "r")$/;"	kind:variable	line:6
 tuple_dict_set.py	../tuple_dict_set.py	1;"	kind:file	line:1
