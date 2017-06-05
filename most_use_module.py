@@ -67,3 +67,12 @@ print(decimal.Decimal(7.6) + decimal.Decimal(8.7))
 
 # 正規運算式 re模組 
 import re
+source_data = "my name is kao and email is ykk@gmail.com"
+match_string = re.search(r"([\w.-]+)@([A-Za-z0-9_.-]+)", source_data)
+# + 表示前面的字元可以被比較1次或多次
+# + 要包在r後的""字串範圍內，否則連群組抓取都會無法正常使用
+print(match_string.group())
+
+# 群組抓取，上述的字串已經分割成群組
+print(match_string.group(1))
+print(match_string.group(2))
