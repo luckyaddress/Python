@@ -4,212 +4,213 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+00_input_function_demo.py	../00_input_function_demo.py	1;"	kind:file	line:1
+03_04_datatype_operator.py	../03_04_datatype_operator.py	1;"	kind:file	line:1
+03_variable_sample.py	../03_variable_sample.py	1;"	kind:file	line:1
+04_pyhon_operator.py	../04_pyhon_operator.py	1;"	kind:file	line:1
+05_if_else.py	../05_if_else.py	1;"	kind:file	line:1
+06_loop_1.py	../06_loop_1.py	1;"	kind:file	line:1
+06_loop_2.py	../06_loop_2.py	1;"	kind:file	line:1
+06_triangle_print.py	../06_triangle_print.py	1;"	kind:file	line:1
+07_class_funciton_2.py	../07_class_funciton_2.py	1;"	kind:file	line:1
+07_class_function.py	../07_class_function.py	1;"	kind:file	line:1
+08_String_List.py	../08_String_List.py	1;"	kind:file	line:1
+09_dict_list_example.py	../09_dict_list_example.py	1;"	kind:file	line:1
+09_tuple_dict_set.py	../09_tuple_dict_set.py	1;"	kind:file	line:1
+10_module_class.py	../10_module_class.py	1;"	kind:file	line:1
+10_module_example.py	../10_module_example.py	1;"	kind:file	line:1
+10_module_example_2.py	../10_module_example_2.py	1;"	kind:file	line:1
+11_exceptIon_deal.py	../11_exceptIon_deal.py	1;"	kind:file	line:1
+11_file_open_close.py	../11_file_open_close.py	1;"	kind:file	line:1
 12_most_use_module.py	../12_most_use_module.py	1;"	kind:file	line:1
 12_multi_thread.py	../12_multi_thread.py	1;"	kind:file	line:1
-A	../tuple_dict_set.py	/^A = {1, 3, 5, 7, 9}$/;"	kind:variable	line:89
-B	../tuple_dict_set.py	/^B = {1, 2, 5, 6, 8}$/;"	kind:variable	line:90
-C	../tuple_dict_set.py	/^C = A.intersection(B) # A交集B 或者 A & B$/;"	kind:variable	line:91
-Cat	../class_function.py	/^class Cat:$/;"	kind:class	line:14
-Cat	../class_function.py	/^class Cat:$/;"	kind:class	line:64
-D	../tuple_dict_set.py	/^D = A.union(B) # A聯集B 或者 A | B$/;"	kind:variable	line:92
-E	../tuple_dict_set.py	/^E = A.difference(B) # A差集B 或者 A-B (單看A的部份)$/;"	kind:variable	line:95
-F	../tuple_dict_set.py	/^F = A.symmetric_difference(B) # A對稱差集B 或者 A ^ B (A跟B一起看)$/;"	kind:variable	line:96
-List1	../dict_list_example.py	/^List1 = ["name:Rei", "性別:男", "weight:175"]$/;"	kind:variable	line:17
-PetShow	../loop.py	/^def PetShow(x):$/;"	kind:function	line:38
-Petname	../loop.py	/^Petname = ['Snoopy', 'Kitty', 'Doraemon', '孫悟空']$/;"	kind:variable	line:42
-Print3	../class_function.py	/^    def Print3(paraTest, x, y):  $/;"	kind:member	line:48
-Python	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
-R	../module_class.py	/^import random as R$/;"	kind:namespace	line:14
-String_List.py	../String_List.py	1;"	kind:file	line:1
-Test1	../class_function.py	/^def Test1():$/;"	kind:function	line:4
-Test2	../class_function.py	/^def Test2(x):$/;"	kind:function	line:9
-__getGender	../module_class.py	/^    def __getGender(self):$/;"	kind:member	line:48
-__init__	../module_class.py	/^    def __init__(self, name):$/;"	kind:member	line:65
-__init__	../module_class.py	/^    def __init__(self, name, color): # 繼承而來的變數只有一個name, 到子類別自己多一個變數color$/;"	kind:member	line:77
-__init__	../module_class.py	/^    def __init__(self, name, grade, gender): # 類別建構子，可用來建立類別中的物件屬性$/;"	kind:member	line:27
-__init__	../module_class.py	/^    def __init__(self, name, grade, gender):$/;"	kind:member	line:43
-a	../class_function.py	/^a = Cat()$/;"	kind:variable	line:19
-a	../class_function.py	/^a = dog() #相當於new一個物件，將其實體化$/;"	kind:variable	line:35
-a	../datatype_operator.py	/^a = 1$/;"	kind:variable	line:66
-a	../datatype_operator.py	/^a = 5$/;"	kind:variable	line:36
-a	../datatype_operator.py	/^a = True$/;"	kind:variable	line:15
-a	../datatype_operator.py	/^a = True$/;"	kind:variable	line:25
-a	../datatype_operator.py	/^a = []$/;"	kind:variable	line:20
-a	../dict_list_example.py	/^a = "rei@yahoo.com"$/;"	kind:variable	line:19
-a	../if_else.py	/^a = 40$/;"	kind:variable	line:30
-a	../loop_2.py	/^a = 0$/;"	kind:variable	line:13
-a	../pyhon_operator.py	/^a = 6.0 + 8$/;"	kind:variable	line:17
-b	../datatype_operator.py	/^b = False$/;"	kind:variable	line:16
-b	../datatype_operator.py	/^b = False$/;"	kind:variable	line:26
-b	../datatype_operator.py	/^b = [1, 2, "3",[4],(5)]$/;"	kind:variable	line:21
-b	../datatype_operator.py	/^b = a % 2 $/;"	kind:variable	line:49
-b	../datatype_operator.py	/^b = a * 3$/;"	kind:variable	line:40
-b	../datatype_operator.py	/^b = a ** 2$/;"	kind:variable	line:52
-b	../datatype_operator.py	/^b = a + 3$/;"	kind:variable	line:37
-b	../datatype_operator.py	/^b = a - 2$/;"	kind:variable	line:46
-b	../datatype_operator.py	/^b = a\/5$/;"	kind:variable	line:43
-b	../datatype_operator.py	/^b = str(a)$/;"	kind:variable	line:68
-b	../dict_list_example.py	/^b = "test@google.com"$/;"	kind:variable	line:20
-b	../module_class.py	/^b = isinstance(c1,child)$/;"	kind:variable	line:103
-b	../pyhon_operator.py	/^b = 5 + 3.79$/;"	kind:variable	line:18
-bmi_cal	../module_example.py	/^def bmi_cal(h,w):$/;"	kind:function	line:5
-c	../datatype_operator.py	/^c = 1.0$/;"	kind:variable	line:70
-c	../datatype_operator.py	/^c = a and b$/;"	kind:variable	line:27
-c	../module_class.py	/^c = isinstance(c1,papa) # 因為有繼承關係 所以子是由父類別生$/;"	kind:variable	line:104
-c	../pyhon_operator.py	/^c = (5.0 \/ 9.0) * (f - 32.0)$/;"	kind:variable	line:23
-c	../pyhon_operator.py	/^c = a**b$/;"	kind:variable	line:5
-c1	../module_class.py	/^c1 = child("小孩", "黃皮膚")$/;"	kind:variable	line:93
+12_python_use_regex.py	../12_python_use_regex.py	1;"	kind:file	line:1
+A	../09_tuple_dict_set.py	/^A = {1, 3, 5, 7, 9}$/;"	kind:variable	line:89
+B	../09_tuple_dict_set.py	/^B = {1, 2, 5, 6, 8}$/;"	kind:variable	line:90
+C	../09_tuple_dict_set.py	/^C = A.intersection(B) # A交集B 或者 A & B$/;"	kind:variable	line:91
+Cat	../07_class_function.py	/^class Cat:$/;"	kind:class	line:14
+Cat	../07_class_function.py	/^class Cat:$/;"	kind:class	line:64
+D	../09_tuple_dict_set.py	/^D = A.union(B) # A聯集B 或者 A | B$/;"	kind:variable	line:92
+E	../09_tuple_dict_set.py	/^E = A.difference(B) # A差集B 或者 A-B (單看A的部份)$/;"	kind:variable	line:95
+F	../09_tuple_dict_set.py	/^F = A.symmetric_difference(B) # A對稱差集B 或者 A ^ B (A跟B一起看)$/;"	kind:variable	line:96
+List1	../09_dict_list_example.py	/^List1 = ["name:Rei", "性別:男", "weight:175"]$/;"	kind:variable	line:17
+PetShow	../06_loop_1.py	/^def PetShow(x):$/;"	kind:function	line:38
+Petname	../06_loop_1.py	/^Petname = ['Snoopy', 'Kitty', 'Doraemon', '孫悟空']$/;"	kind:variable	line:42
+Print3	../07_class_function.py	/^    def Print3(paraTest, x, y):  $/;"	kind:member	line:48
+Python	../12_python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
+R	../10_module_class.py	/^import random as R$/;"	kind:namespace	line:14
+Test1	../07_class_function.py	/^def Test1():$/;"	kind:function	line:4
+Test2	../07_class_function.py	/^def Test2(x):$/;"	kind:function	line:9
+__getGender	../10_module_class.py	/^    def __getGender(self):$/;"	kind:member	line:48
+__init__	../10_module_class.py	/^    def __init__(self, name):$/;"	kind:member	line:65
+__init__	../10_module_class.py	/^    def __init__(self, name, color): # 繼承而來的變數只有一個name, 到子類別自己多一個變數color$/;"	kind:member	line:77
+__init__	../10_module_class.py	/^    def __init__(self, name, grade, gender): # 類別建構子，可用來建立類別中的物件屬性$/;"	kind:member	line:27
+__init__	../10_module_class.py	/^    def __init__(self, name, grade, gender):$/;"	kind:member	line:43
+a	../03_04_datatype_operator.py	/^a = 1$/;"	kind:variable	line:66
+a	../03_04_datatype_operator.py	/^a = 5$/;"	kind:variable	line:36
+a	../03_04_datatype_operator.py	/^a = True$/;"	kind:variable	line:15
+a	../03_04_datatype_operator.py	/^a = True$/;"	kind:variable	line:25
+a	../03_04_datatype_operator.py	/^a = []$/;"	kind:variable	line:20
+a	../04_pyhon_operator.py	/^a = 6.0 + 8$/;"	kind:variable	line:17
+a	../05_if_else.py	/^a = 40$/;"	kind:variable	line:30
+a	../06_loop_2.py	/^a = 0$/;"	kind:variable	line:13
+a	../07_class_function.py	/^a = Cat()$/;"	kind:variable	line:19
+a	../07_class_function.py	/^a = dog() #相當於new一個物件，將其實體化$/;"	kind:variable	line:35
+a	../09_dict_list_example.py	/^a = "rei@yahoo.com"$/;"	kind:variable	line:19
+b	../03_04_datatype_operator.py	/^b = False$/;"	kind:variable	line:16
+b	../03_04_datatype_operator.py	/^b = False$/;"	kind:variable	line:26
+b	../03_04_datatype_operator.py	/^b = [1, 2, "3",[4],(5)]$/;"	kind:variable	line:21
+b	../03_04_datatype_operator.py	/^b = a % 2 $/;"	kind:variable	line:49
+b	../03_04_datatype_operator.py	/^b = a * 3$/;"	kind:variable	line:40
+b	../03_04_datatype_operator.py	/^b = a ** 2$/;"	kind:variable	line:52
+b	../03_04_datatype_operator.py	/^b = a + 3$/;"	kind:variable	line:37
+b	../03_04_datatype_operator.py	/^b = a - 2$/;"	kind:variable	line:46
+b	../03_04_datatype_operator.py	/^b = a\/5$/;"	kind:variable	line:43
+b	../03_04_datatype_operator.py	/^b = str(a)$/;"	kind:variable	line:68
+b	../04_pyhon_operator.py	/^b = 5 + 3.79$/;"	kind:variable	line:18
+b	../09_dict_list_example.py	/^b = "test@google.com"$/;"	kind:variable	line:20
+b	../10_module_class.py	/^b = isinstance(c1,child)$/;"	kind:variable	line:103
+bmi_cal	../10_module_example.py	/^def bmi_cal(h,w):$/;"	kind:function	line:5
+c	../03_04_datatype_operator.py	/^c = 1.0$/;"	kind:variable	line:70
+c	../03_04_datatype_operator.py	/^c = a and b$/;"	kind:variable	line:27
+c	../04_pyhon_operator.py	/^c = (5.0 \/ 9.0) * (f - 32.0)$/;"	kind:variable	line:23
+c	../04_pyhon_operator.py	/^c = a**b$/;"	kind:variable	line:5
+c	../10_module_class.py	/^c = isinstance(c1,papa) # 因為有繼承關係 所以子是由父類別生$/;"	kind:variable	line:104
+c1	../10_module_class.py	/^c1 = child("小孩", "黃皮膚")$/;"	kind:variable	line:93
 cal	../12_most_use_module.py	/^cal = calendar.month(2017,4)$/;"	kind:variable	line:60
 calendar	../12_most_use_module.py	/^import calendar$/;"	kind:namespace	line:59
-child	../module_class.py	/^class  child(papa): # 繼承自papa$/;"	kind:class	line:76
-class_funciton_2.py	../class_funciton_2.py	1;"	kind:file	line:1
-class_function.py	../class_function.py	1;"	kind:file	line:1
-d	../class_function.py	/^d = Cat()  # new一個Cat物件$/;"	kind:variable	line:72
-d	../datatype_operator.py	/^d = not b$/;"	kind:variable	line:32
-d	../module_class.py	/^d = isinstance(p1,child) # 子不可能生出父類別$/;"	kind:variable	line:105
-d1	../dict_list_example.py	/^d1 = {"name":"Rei", "sex":"male",  "weight":75}  # 宣告一個dict$/;"	kind:variable	line:4
-d1	../tuple_dict_set.py	/^d1 = {1:"apple", 2:"banana", 3:"orange"}$/;"	kind:variable	line:29
-d2	../dict_list_example.py	/^d2 = {1:"a", 2:"b"}$/;"	kind:variable	line:11
-d2	../tuple_dict_set.py	/^d2 = {"Tom":1, "John":2, "Arthur":3, "Lexus":4}$/;"	kind:variable	line:56
-d3	../tuple_dict_set.py	/^d3 = {"Maggie":1, "May":2, "Betty":3, "Wakaki":4}$/;"	kind:variable	line:57
-datatype_operator.py	../datatype_operator.py	1;"	kind:file	line:1
+child	../10_module_class.py	/^class  child(papa): # 繼承自papa$/;"	kind:class	line:76
+d	../03_04_datatype_operator.py	/^d = not b$/;"	kind:variable	line:32
+d	../07_class_function.py	/^d = Cat()  # new一個Cat物件$/;"	kind:variable	line:72
+d	../10_module_class.py	/^d = isinstance(p1,child) # 子不可能生出父類別$/;"	kind:variable	line:105
+d1	../09_dict_list_example.py	/^d1 = {"name":"Rei", "sex":"male",  "weight":75}  # 宣告一個dict$/;"	kind:variable	line:4
+d1	../09_tuple_dict_set.py	/^d1 = {1:"apple", 2:"banana", 3:"orange"}$/;"	kind:variable	line:29
+d2	../09_dict_list_example.py	/^d2 = {1:"a", 2:"b"}$/;"	kind:variable	line:11
+d2	../09_tuple_dict_set.py	/^d2 = {"Tom":1, "John":2, "Arthur":3, "Lexus":4}$/;"	kind:variable	line:56
+d3	../09_tuple_dict_set.py	/^d3 = {"Maggie":1, "May":2, "Betty":3, "Wakaki":4}$/;"	kind:variable	line:57
 decimal	../12_most_use_module.py	/^import decimal$/;"	kind:namespace	line:64
-dict1	../tuple_dict_set.py	/^dict1 = {x:x**3 for x in range(1,5)}$/;"	kind:variable	line:106
-dict_list_example.py	../dict_list_example.py	1;"	kind:file	line:1
+dict1	../09_tuple_dict_set.py	/^dict1 = {x:x**3 for x in range(1,5)}$/;"	kind:variable	line:106
 display	../12_multi_thread.py	/^def display(name, num):$/;"	kind:function	line:7
-displayGrade	../module_class.py	/^    def displayGrade(self):$/;"	kind:member	line:31
-dog	../class_function.py	/^class dog:$/;"	kind:class	line:27
-e	../module_class.py	/^e = isinstance(p1,papa)$/;"	kind:variable	line:106
-exceptIon_deal.py	../exceptIon_deal.py	1;"	kind:file	line:1
-f	../pyhon_operator.py	/^f = int(input("請輸入華式溫度=>"))$/;"	kind:variable	line:22
-file_open_close.py	../file_open_close.py	1;"	kind:file	line:1
+displayGrade	../10_module_class.py	/^    def displayGrade(self):$/;"	kind:member	line:31
+dog	../07_class_function.py	/^class dog:$/;"	kind:class	line:27
+e	../10_module_class.py	/^e = isinstance(p1,papa)$/;"	kind:variable	line:106
+f	../04_pyhon_operator.py	/^f = int(input("請輸入華式溫度=>"))$/;"	kind:variable	line:22
 files	../12_most_use_module.py	/^files = (os.getcwd(), "loop_2.py")$/;"	kind:variable	line:29
-fp	../file_open_close.py	/^fp = open("Python_test.txt", "r") $/;"	kind:variable	line:15
-fp2	../file_open_close.py	/^fp2 = open("Python_test.txt", "r")$/;"	kind:variable	line:22
-fp3	../file_open_close.py	/^fp3 = open("Python_test.txt", "r")$/;"	kind:variable	line:26
-fp_3	../file_open_close.py	/^fp_3 = open("note.dat", "rb")$/;"	kind:variable	line:40
-fp_4	../file_open_close.py	/^fp_4= open("note.dat", "rb")$/;"	kind:variable	line:47
-fp_b	../file_open_close.py	/^fp_b = open ("note.dat", "wb") # 二進位要加上一個b, 讀取是rb$/;"	kind:variable	line:32
-function_test	../class_funciton_2.py	/^def function_test():$/;"	kind:function	line:5
-gender	../module_example_2.py	/^gender = "female"$/;"	kind:variable	line:5
-girlprint	../loop.py	/^def girlprint(name):$/;"	kind:function	line:26
-girls	../loop.py	/^girls = ['Nancy', 'Stacey', 'Tracy', 'Wakaki']$/;"	kind:variable	line:30
-guess	../loop_2.py	/^    guess = int(input("請輸入猜測的數字=>"))$/;"	kind:variable	line:29
-i	../loop.py	/^i = 0$/;"	kind:variable	line:19
-if_else.py	../if_else.py	1;"	kind:file	line:1
-import	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
-input_function_demo.py	../input_function_demo.py	1;"	kind:file	line:1
-line1	../file_open_close.py	/^line1 =  fp.readlines()  # 將開啟的檔案內容，逐行變成一個list的資料型態$/;"	kind:variable	line:16
+fp	../11_file_open_close.py	/^fp = open("Python_test.txt", "r") $/;"	kind:variable	line:15
+fp2	../11_file_open_close.py	/^fp2 = open("Python_test.txt", "r")$/;"	kind:variable	line:22
+fp3	../11_file_open_close.py	/^fp3 = open("Python_test.txt", "r")$/;"	kind:variable	line:26
+fp_3	../11_file_open_close.py	/^fp_3 = open("note.dat", "rb")$/;"	kind:variable	line:40
+fp_4	../11_file_open_close.py	/^fp_4= open("note.dat", "rb")$/;"	kind:variable	line:47
+fp_b	../11_file_open_close.py	/^fp_b = open ("note.dat", "wb") # 二進位要加上一個b, 讀取是rb$/;"	kind:variable	line:32
+function_test	../07_class_funciton_2.py	/^def function_test():$/;"	kind:function	line:5
+gender	../10_module_example_2.py	/^gender = "female"$/;"	kind:variable	line:5
+girlprint	../06_loop_1.py	/^def girlprint(name):$/;"	kind:function	line:26
+girls	../06_loop_1.py	/^girls = ['Nancy', 'Stacey', 'Tracy', 'Wakaki']$/;"	kind:variable	line:30
+guess	../06_loop_2.py	/^    guess = int(input("請輸入猜測的數字=>"))$/;"	kind:variable	line:29
+i	../06_loop_1.py	/^i = 0$/;"	kind:variable	line:19
+import	../12_python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
+line1	../11_file_open_close.py	/^line1 =  fp.readlines()  # 將開啟的檔案內容，逐行變成一個list的資料型態$/;"	kind:variable	line:16
+list1	../08_String_List.py	/^list1 = [1, "2", [3, 4 , 5]] # list具有巢狀之功能$/;"	kind:variable	line:34
+list1	../08_String_List.py	/^list1 = [1, 2, 3, 4, 5, 6, 7, 8]$/;"	kind:variable	line:57
+list1	../08_String_List.py	/^list1 = str1.split()$/;"	kind:variable	line:68
+list1	../09_tuple_dict_set.py	/^list1 = [x for x in range(1,10,2) if x % 3 == 0] # 清單包含$/;"	kind:variable	line:102
 list1	../12_most_use_module.py	/^list1 = ["apple", "orange", "strawberry", "juice", "roasted-beef"]$/;"	kind:variable	line:44
-list1	../String_List.py	/^list1 = [1, "2", [3, 4 , 5]] # list具有巢狀之功能$/;"	kind:variable	line:34
-list1	../String_List.py	/^list1 = [1, 2, 3, 4, 5, 6, 7, 8]$/;"	kind:variable	line:57
-list1	../String_List.py	/^list1 = str1.split()$/;"	kind:variable	line:68
-list1	../tuple_dict_set.py	/^list1 = [x for x in range(1,10,2) if x % 3 == 0] # 清單包含$/;"	kind:variable	line:102
-list2	../String_List.py	/^list2 = [1, 2, [3, 4, 5], 6, 7, 8]$/;"	kind:variable	line:43
-list2	../String_List.py	/^list2 = str(str2.splitlines()).decode('string_escape')$/;"	kind:variable	line:71
-list2	../tuple_dict_set.py	/^list2 = ["Tom", "Calvin", "Tony"]$/;"	kind:variable	line:105
-list3	../String_List.py	/^list3 = [7, 3, 8, 5, 9, 0, 1]$/;"	kind:variable	line:61
+list2	../08_String_List.py	/^list2 = [1, 2, [3, 4, 5], 6, 7, 8]$/;"	kind:variable	line:43
+list2	../08_String_List.py	/^list2 = str(str2.splitlines()).decode('string_escape')$/;"	kind:variable	line:71
+list2	../09_tuple_dict_set.py	/^list2 = ["Tom", "Calvin", "Tony"]$/;"	kind:variable	line:105
+list3	../08_String_List.py	/^list3 = [7, 3, 8, 5, 9, 0, 1]$/;"	kind:variable	line:61
 localtime	../12_most_use_module.py	/^localtime = time.localtime(time_1)$/;"	kind:variable	line:54
-loop.py	../loop.py	1;"	kind:file	line:1
-loop_2.py	../loop_2.py	1;"	kind:file	line:1
-m	../python_use_regex.py	/^m = p.findall("zljlrjuaoducomlreaf") # 執行findall方法 將字串帶入re物件(p)的方法中$/;"	kind:variable	line:28
+m	../12_python_use_regex.py	/^m = p.findall("zljlrjuaoducomlreaf") # 執行findall方法 將字串帶入re物件(p)的方法中$/;"	kind:variable	line:28
 match_string	../12_most_use_module.py	/^match_string = re.search(r"([\\w.-]+)@([A-Za-z0-9_.-]+)", source_data)$/;"	kind:variable	line:71
-match_string	../python_use_regex.py	/^match_string = re.findall(pattern, string)   #設定match_string為re函式庫下findall方法的回傳字串$/;"	kind:variable	line:7
+match_string	../12_python_use_regex.py	/^match_string = re.findall(pattern, string)   #設定match_string為re函式庫下findall方法的回傳字串$/;"	kind:variable	line:7
 match_string2	../12_most_use_module.py	/^match_string2 = re.findall(r"([\\w.-]+)@([A-Za-z0-9_.-]+)", source_data2)$/;"	kind:variable	line:82
-match_string_2	../python_use_regex.py	/^match_string_2 = re.search(pattern_2,string_2) $/;"	kind:variable	line:14
-match_string_3	../python_use_regex.py	/^match_string_3 = re.search(pattern_3,string_3)$/;"	kind:variable	line:22
-meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:15
-meow	../class_function.py	/^    def meow(self):$/;"	kind:member	line:69
-module_class.py	../module_class.py	1;"	kind:file	line:1
-module_example	../module_class.py	/^import module_example  # 匯入模組後，下方即可使用該模組的方法或變數$/;"	kind:namespace	line:5
-module_example.py	../module_example.py	1;"	kind:file	line:1
-module_example_2.py	../module_example_2.py	1;"	kind:file	line:1
-n1	../exceptIon_deal.py	/^    n1 = input("輸入第一個整數值 =>")$/;"	kind:variable	line:14
-n2	../exceptIon_deal.py	/^    n2 = float(input("輸入第二個整數值 =>"))  # 要用int \/ float才能呈現小數點$/;"	kind:variable	line:15
-new_str_x	../file_open_close.py	/^    new_str_x = pickle.load(fp_4)$/;"	kind:variable	line:51
-new_str_x	../file_open_close.py	/^    new_str_x = str_x.format(i)$/;"	kind:variable	line:50
+match_string_2	../12_python_use_regex.py	/^match_string_2 = re.search(pattern_2,string_2) $/;"	kind:variable	line:14
+match_string_3	../12_python_use_regex.py	/^match_string_3 = re.search(pattern_3,string_3)$/;"	kind:variable	line:22
+meow	../07_class_function.py	/^    def meow(self):$/;"	kind:member	line:15
+meow	../07_class_function.py	/^    def meow(self):$/;"	kind:member	line:69
+module_example	../10_module_class.py	/^import module_example  # 匯入模組後，下方即可使用該模組的方法或變數$/;"	kind:namespace	line:5
+n1	../11_exceptIon_deal.py	/^    n1 = input("輸入第一個整數值 =>")$/;"	kind:variable	line:14
+n2	../11_exceptIon_deal.py	/^    n2 = float(input("輸入第二個整數值 =>"))  # 要用int \/ float才能呈現小數點$/;"	kind:variable	line:15
+new_str_x	../11_file_open_close.py	/^    new_str_x = pickle.load(fp_4)$/;"	kind:variable	line:51
+new_str_x	../11_file_open_close.py	/^    new_str_x = str_x.format(i)$/;"	kind:variable	line:50
 os	../12_most_use_module.py	/^import os$/;"	kind:namespace	line:5
-output_Gender	../module_class.py	/^    def output_Gender(self):$/;"	kind:member	line:51
-p	../pyhon_operator.py	/^p = y \/\/ float(x)$/;"	kind:variable	line:11
-p	../python_use_regex.py	/^p = re.compile(r"[a-z]")$/;"	kind:variable	line:27
-p1	../module_class.py	/^p1 = papa("爸爸")$/;"	kind:variable	line:72
-papa	../module_class.py	/^class papa(object):  # 父類別要先繼承object的類別，才能給予他人繼承$/;"	kind:class	line:64
+output_Gender	../10_module_class.py	/^    def output_Gender(self):$/;"	kind:member	line:51
+p	../04_pyhon_operator.py	/^p = y \/\/ float(x)$/;"	kind:variable	line:11
+p	../12_python_use_regex.py	/^p = re.compile(r"[a-z]")$/;"	kind:variable	line:27
+p1	../10_module_class.py	/^p1 = papa("爸爸")$/;"	kind:variable	line:72
+papa	../10_module_class.py	/^class papa(object):  # 父類別要先繼承object的類別，才能給予他人繼承$/;"	kind:class	line:64
 path	../12_most_use_module.py	/^path = os.getcwd() # 取得現在工作目錄$/;"	kind:variable	line:6
-pattern	../python_use_regex.py	/^pattern = '[abc]'   #設定正規式要搜尋的pattern$/;"	kind:variable	line:5
-pattern_2	../python_use_regex.py	/^pattern_2 = r'ab.'   # r 表示 raw string，不做特殊處理，另外+號表示1個或1個以上的關鍵字，寫在pattern字串內 $/;"	kind:variable	line:12
-pattern_3	../python_use_regex.py	/^pattern_3 = r"\\.\\w+"  # \\. 表示 . 因為Regex中 . 表示單一任意字元$/;"	kind:variable	line:20
-pickle	../file_open_close.py	/^import pickle$/;"	kind:namespace	line:31
-pig	../class_function.py	/^class pig:$/;"	kind:class	line:44
-print_name	../module_class.py	/^from module_example_2 import print_name$/;"	kind:namespace	line:19
-print_name	../module_example.py	/^def print_name(name):$/;"	kind:function	line:9
-print_name	../module_example_2.py	/^def print_name(name):$/;"	kind:function	line:7
-pyhon_operator.py	../pyhon_operator.py	1;"	kind:file	line:1
-python_file	../file_open_close.py	/^python_file = open("Python_test.txt", "r") $/;"	kind:variable	line:3
-python_use_regex.py	../python_use_regex.py	1;"	kind:file	line:1
-r	../exceptIon_deal.py	/^    r = n1 \/ n2$/;"	kind:variable	line:16
+pattern	../12_python_use_regex.py	/^pattern = '[abc]'   #設定正規式要搜尋的pattern$/;"	kind:variable	line:5
+pattern_2	../12_python_use_regex.py	/^pattern_2 = r'ab.'   # r 表示 raw string，不做特殊處理，另外+號表示1個或1個以上的關鍵字，寫在pattern字串內 $/;"	kind:variable	line:12
+pattern_3	../12_python_use_regex.py	/^pattern_3 = r"\\.\\w+"  # \\. 表示 . 因為Regex中 . 表示單一任意字元$/;"	kind:variable	line:20
+pickle	../11_file_open_close.py	/^import pickle$/;"	kind:namespace	line:31
+pig	../07_class_function.py	/^class pig:$/;"	kind:class	line:44
+print_name	../10_module_class.py	/^from module_example_2 import print_name$/;"	kind:namespace	line:19
+print_name	../10_module_example.py	/^def print_name(name):$/;"	kind:function	line:9
+print_name	../10_module_example_2.py	/^def print_name(name):$/;"	kind:function	line:7
+python_file	../11_file_open_close.py	/^python_file = open("Python_test.txt", "r") $/;"	kind:variable	line:3
+r	../11_exceptIon_deal.py	/^    r = n1 \/ n2$/;"	kind:variable	line:16
 r1	../12_most_use_module.py	/^r1 = random.randint(1,20)$/;"	kind:variable	line:41
 r2	../12_most_use_module.py	/^r2 = random.choice(list1) # choice 在清單的資料型態中任意抽選一個$/;"	kind:variable	line:45
+random	../10_module_class.py	/^import random$/;"	kind:namespace	line:12
 random	../12_most_use_module.py	/^import random$/;"	kind:namespace	line:40
 random	../12_multi_thread.py	/^import threading, time, random$/;"	kind:namespace	line:6
-random	../module_class.py	/^import random$/;"	kind:namespace	line:12
-random_n	../module_class.py	/^random_n = random.randint(1, 100)$/;"	kind:variable	line:13
+random_n	../10_module_class.py	/^random_n = random.randint(1, 100)$/;"	kind:variable	line:13
 re	../12_most_use_module.py	/^import re$/;"	kind:namespace	line:69
-re	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
-regex	../python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
-rn_2	../module_class.py	/^rn_2 = R.randint(20, 60)$/;"	kind:variable	line:15
-s	../loop.py	/^s = 0$/;"	kind:variable	line:48
-s1	../module_class.py	/^s1 = student("Wakaki", 98, "female")$/;"	kind:variable	line:37
-s1	../tuple_dict_set.py	/^s1 = {1,"Hello", 3.45}$/;"	kind:variable	line:70
-s2	../module_class.py	/^s2 = student2("Yukai", 88, "male")$/;"	kind:variable	line:55
-score	../if_else.py	/^score = int(input("請輸入成績分數=>"))$/;"	kind:variable	line:22
-setColor	../module_class.py	/^    def setColor(self, name, new_color):  # 設定一個新方法，繼承父類別，並且可更改子類別的屬性$/;"	kind:member	line:82
-setName	../module_class.py	/^    def setName(self, name, color, height):$/;"	kind:member	line:87
-setName	../module_class.py	/^    def setName(self, new_name):$/;"	kind:member	line:68
+re	../12_python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
+regex	../12_python_use_regex.py	/^import re           #import re 作為引入regex函式庫 (Python的函式庫)$/;"	kind:namespace	line:4
+rn_2	../10_module_class.py	/^rn_2 = R.randint(20, 60)$/;"	kind:variable	line:15
+s	../06_loop_1.py	/^s = 0$/;"	kind:variable	line:48
+s1	../09_tuple_dict_set.py	/^s1 = {1,"Hello", 3.45}$/;"	kind:variable	line:70
+s1	../10_module_class.py	/^s1 = student("Wakaki", 98, "female")$/;"	kind:variable	line:37
+s2	../10_module_class.py	/^s2 = student2("Yukai", 88, "male")$/;"	kind:variable	line:55
+score	../05_if_else.py	/^score = int(input("請輸入成績分數=>"))$/;"	kind:variable	line:22
+setColor	../10_module_class.py	/^    def setColor(self, name, new_color):  # 設定一個新方法，繼承父類別，並且可更改子類別的屬性$/;"	kind:member	line:82
+setName	../10_module_class.py	/^    def setName(self, name, color, height):$/;"	kind:member	line:87
+setName	../10_module_class.py	/^    def setName(self, new_name):$/;"	kind:member	line:68
 source_data	../12_most_use_module.py	/^source_data = "my name is kao and email is ykk@gmail.com"$/;"	kind:variable	line:70
 source_data2	../12_most_use_module.py	/^source_data2 = "my name is kao and email is ykk@gmail.com, your name is wakaki and email is wakaki@gmail.com"$/;"	kind:variable	line:81
-str1	../String_List.py	/^str1 = "Hello"$/;"	kind:variable	line:9
-str1	../String_List.py	/^str1 = "Test"$/;"	kind:variable	line:4
-str1	../String_List.py	/^str1 = "This is a book that I like"$/;"	kind:variable	line:67
-str1	../String_List.py	/^str1 = str(123456)$/;"	kind:variable	line:63
-str1	../file_open_close.py	/^str1 = python_file.read()$/;"	kind:variable	line:11
-str2	../String_List.py	/^str2 = "Email:xxx@kmu.edu.tw \\nName:高煜凱"$/;"	kind:variable	line:70
-str2	../String_List.py	/^str2 = "HelloWakaki"$/;"	kind:variable	line:17
-str2	../file_open_close.py	/^str2 = fp2.read(9) # read中的參數，可限制讀取多少字元$/;"	kind:variable	line:23
-str_x	../file_open_close.py	/^    str_x = "str" + str(i) # 組成一個變數，指定給load函數$/;"	kind:variable	line:42
-str_x	../file_open_close.py	/^    str_x = "str{}"$/;"	kind:variable	line:49
-str_x	../file_open_close.py	/^    str_x = pickle.load(fp_3)$/;"	kind:variable	line:43
-string	../python_use_regex.py	/^string = 'aAbBcC'   #搜尋字串$/;"	kind:variable	line:6
-string_2	../python_use_regex.py	/^string_2 = 'abdabxacb'$/;"	kind:variable	line:13
-string_3	../python_use_regex.py	/^string_3 = ".abc 123 abc"$/;"	kind:variable	line:21
-student	../module_class.py	/^class student:$/;"	kind:class	line:26
-student2	../module_class.py	/^class student2:$/;"	kind:class	line:42
-sum_to_summary	../class_funciton_2.py	/^def sum_to_summary(start, end):$/;"	kind:function	line:19
-sum_to_ten	../class_funciton_2.py	/^def sum_to_ten():$/;"	kind:function	line:10
-t	../if_else.py	/^t = float(input("請輸入今天氣溫=>"))$/;"	kind:variable	line:16
-t3	../tuple_dict_set.py	/^t3 = (1, 1, "a", "a", "n", "c", 3, 5,)$/;"	kind:variable	line:24
-test1	../class_function.py	/^def test1(a,b):$/;"	kind:function	line:55
+str1	../08_String_List.py	/^str1 = "Hello"$/;"	kind:variable	line:9
+str1	../08_String_List.py	/^str1 = "Test"$/;"	kind:variable	line:4
+str1	../08_String_List.py	/^str1 = "This is a book that I like"$/;"	kind:variable	line:67
+str1	../08_String_List.py	/^str1 = str(123456)$/;"	kind:variable	line:63
+str1	../11_file_open_close.py	/^str1 = python_file.read()$/;"	kind:variable	line:11
+str2	../08_String_List.py	/^str2 = "Email:xxx@kmu.edu.tw \\nName:高煜凱"$/;"	kind:variable	line:70
+str2	../08_String_List.py	/^str2 = "HelloWakaki"$/;"	kind:variable	line:17
+str2	../11_file_open_close.py	/^str2 = fp2.read(9) # read中的參數，可限制讀取多少字元$/;"	kind:variable	line:23
+str_x	../11_file_open_close.py	/^    str_x = "str" + str(i) # 組成一個變數，指定給load函數$/;"	kind:variable	line:42
+str_x	../11_file_open_close.py	/^    str_x = "str{}"$/;"	kind:variable	line:49
+str_x	../11_file_open_close.py	/^    str_x = pickle.load(fp_3)$/;"	kind:variable	line:43
+string	../12_python_use_regex.py	/^string = 'aAbBcC'   #搜尋字串$/;"	kind:variable	line:6
+string_2	../12_python_use_regex.py	/^string_2 = 'abdabxacb'$/;"	kind:variable	line:13
+string_3	../12_python_use_regex.py	/^string_3 = ".abc 123 abc"$/;"	kind:variable	line:21
+student	../10_module_class.py	/^class student:$/;"	kind:class	line:26
+student2	../10_module_class.py	/^class student2:$/;"	kind:class	line:42
+sum_to_summary	../07_class_funciton_2.py	/^def sum_to_summary(start, end):$/;"	kind:function	line:19
+sum_to_ten	../07_class_funciton_2.py	/^def sum_to_ten():$/;"	kind:function	line:10
+t	../05_if_else.py	/^t = float(input("請輸入今天氣溫=>"))$/;"	kind:variable	line:16
+t3	../09_tuple_dict_set.py	/^t3 = (1, 1, "a", "a", "n", "c", 3, 5,)$/;"	kind:variable	line:24
+test1	../07_class_function.py	/^def test1(a,b):$/;"	kind:function	line:55
 thread1	../12_multi_thread.py	/^thread1 = threading.Thread(target=display, args=("執行緒",1))$/;"	kind:variable	line:14
 thread2	../12_multi_thread.py	/^thread2 = threading.Thread(target=display, args=("執行緒",2))$/;"	kind:variable	line:16
 threading	../12_multi_thread.py	/^import threading, time, random$/;"	kind:namespace	line:6
 time	../12_most_use_module.py	/^import time$/;"	kind:namespace	line:50
 time	../12_multi_thread.py	/^import threading, time, random$/;"	kind:namespace	line:6
 time_1	../12_most_use_module.py	/^time_1 = time.time()$/;"	kind:variable	line:51
-triangle_print.py	../triangle_print.py	1;"	kind:file	line:1
-try_open	../exceptIon_deal.py	/^    try_open = open("Exception.txt", "r")$/;"	kind:variable	line:6
-tuple_dict_set.py	../tuple_dict_set.py	1;"	kind:file	line:1
-turple1	../tuple_dict_set.py	/^turple1 = () # 空turple$/;"	kind:variable	line:6
-turple2	../tuple_dict_set.py	/^turple2 = (1, "2", 3, "test", 4.1782)$/;"	kind:variable	line:7
-turple3	../tuple_dict_set.py	/^turple3 = turple2[2:4]$/;"	kind:variable	line:18
-var1	../class_function.py	/^    var1 = "Try classmethod"$/;"	kind:variable	line:46
-var1	../class_function.py	/^    var1 = "Try staticmethod"$/;"	kind:variable	line:28
-var1	../input_function_demo.py	/^var1 = int(input("請輸入整數=>"))$/;"	kind:variable	line:4
-var1	../loop.py	/^var1 = int(input("請輸入最大值=>"))$/;"	kind:variable	line:47
-var2	../input_function_demo.py	/^var2 = float(input("請輸入浮點數=>"))$/;"	kind:variable	line:11
-voice	../class_function.py	/^    def voice(self, a, b): #self表示這個類別本身$/;"	kind:member	line:65
-wow	../class_function.py	/^    def wow(x,y):$/;"	kind:member	line:30
-x	../datatype_operator.py	/^x = a or b$/;"	kind:variable	line:29
-x	../module_class.py	/^x = module_example.bmi_cal(1.79, 0.95)$/;"	kind:variable	line:7
-x	../python_use_regex.py	/^x = match_string$/;"	kind:variable	line:9
-x_2	../python_use_regex.py	/^x_2 = match_string_2.group()$/;"	kind:variable	line:16
-x_3	../python_use_regex.py	/^x_3 = match_string_3.group()$/;"	kind:variable	line:23
-z	../pyhon_operator.py	/^z = y \/ float(x)$/;"	kind:variable	line:10
+try_open	../11_exceptIon_deal.py	/^    try_open = open("Exception.txt", "r")$/;"	kind:variable	line:6
+turple1	../09_tuple_dict_set.py	/^turple1 = () # 空turple$/;"	kind:variable	line:6
+turple2	../09_tuple_dict_set.py	/^turple2 = (1, "2", 3, "test", 4.1782)$/;"	kind:variable	line:7
+turple3	../09_tuple_dict_set.py	/^turple3 = turple2[2:4]$/;"	kind:variable	line:18
+var1	../00_input_function_demo.py	/^var1 = int(input("請輸入整數=>"))$/;"	kind:variable	line:4
+var1	../06_loop_1.py	/^var1 = int(input("請輸入最大值=>"))$/;"	kind:variable	line:47
+var1	../07_class_function.py	/^    var1 = "Try classmethod"$/;"	kind:variable	line:46
+var1	../07_class_function.py	/^    var1 = "Try staticmethod"$/;"	kind:variable	line:28
+var2	../00_input_function_demo.py	/^var2 = float(input("請輸入浮點數=>"))$/;"	kind:variable	line:11
+voice	../07_class_function.py	/^    def voice(self, a, b): #self表示這個類別本身$/;"	kind:member	line:65
+wow	../07_class_function.py	/^    def wow(x,y):$/;"	kind:member	line:30
+x	../03_04_datatype_operator.py	/^x = a or b$/;"	kind:variable	line:29
+x	../10_module_class.py	/^x = module_example.bmi_cal(1.79, 0.95)$/;"	kind:variable	line:7
+x	../12_python_use_regex.py	/^x = match_string$/;"	kind:variable	line:9
+x_2	../12_python_use_regex.py	/^x_2 = match_string_2.group()$/;"	kind:variable	line:16
+x_3	../12_python_use_regex.py	/^x_3 = match_string_3.group()$/;"	kind:variable	line:23
+z	../04_pyhon_operator.py	/^z = y \/ float(x)$/;"	kind:variable	line:10
