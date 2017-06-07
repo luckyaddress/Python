@@ -10,7 +10,7 @@ print(x)
 
 # Python亦可匯入內建模組,並使用別名來呼叫模組
 import random
-random_n = random.randint(1, 100)
+random_n = random.randint(1, 100) #randint(a,b) 從a跟b之間隨機取一整數
 import random as R
 rn_2 = R.randint(20, 60)
 print(random_n, rn_2)
