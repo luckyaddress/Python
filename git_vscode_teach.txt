@@ -8,7 +8,7 @@
 
 1.先在GitHub上新增一個專案，取得超連結位址 
 
-  例如：git remote add origin https://github.com/luckyaddress/Python.git
+  例如： https://github.com/luckyaddress/Python.git  
 
 2.開啟終端機或者命令提示字元
 
@@ -18,14 +18,18 @@
 3.輸入 git config --list 可以看是否設定完成
 
 4.進入要推送上去的資料夾，輸入
+
+   echo "# Contacts_op_rc" >> README.md
  
    # git init
-   # git add
-   # git commit
+   # git add README.md
+   # git commit -m "first commit"
 
 5.將該資料夾推送到GitHub上，接著輸入
   
-  # git remote add origin 步驟1取得的超連結位址
+  # git remote add origin 步驟1取得的超連結位址  (連線遠端專案)
+
+  (如果要移除，請使用git remote rm origin ，再用上方語法在命令列重新設定)
 
 6.進行第一次推送
   
