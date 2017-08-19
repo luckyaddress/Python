@@ -6,7 +6,9 @@
 
 4.選擇 TypeScript - tsconfig.json
 
-5.修改執行器設定檔 - tasks.json，如下圖:
+  (新版的，選擇 MSBuild - 執行建置目標)
+
+5.修改所出現的執行器設定檔 - tasks.json，如下圖:
 
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
@@ -17,3 +19,5 @@
     "args": ["${file}"],
     "showOutput": "always"
 }
+
+6.即可使用Ctrl(Command)+Shift+B 執行Python檔案
