@@ -1,10 +1,12 @@
-1.啟用VSCode，輸入Ctrl+Shift+P，打開VSCode的Command
+1.先在Extensions安裝好Python跟Python for VScode
 
-2.輸入task，選擇工作，設定工作執行器Tasks: Configure Task Runner
+2.啟用VSCode，輸入Ctrl+Shift+P，打開VSCode的Command
 
-3.選擇 TypeScript - tsconfig.json
+3.輸入task，選擇工作，設定工作執行器Tasks: Configure Task Runner
 
-4.修改執行器設定檔，如下圖:
+4.選擇 TypeScript - tsconfig.json
+
+5.修改執行器設定檔 - tasks.json，如下圖:
 
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
