@@ -2,11 +2,9 @@
 
 2.啟用VSCode，輸入Ctrl+Shift+P，打開VSCode的Command
 
-3.輸入task，選擇工作，設定工作執行器Tasks: Configure Task Runner
+3.輸入task，選擇工作，設定預設組建工作Tasks: Configure Default Build Task
 
-4.選擇 TypeScript - tsconfig.json
-
-  (新版的，選擇 MSBuild - 執行建置目標)
+4.新版的，選擇 MSBuild - 執行建置目標，再點選 從範本開啟tasks.json檔案
 
 5.修改所出現的執行器設定檔 - tasks.json，如下圖:
 
@@ -20,4 +18,16 @@
     "showOutput": "always"
 }
 
-6.即可使用Ctrl(Command)+Shift+B 執行Python檔案
+6.如果是 Python3，請用which找出路徑，貼在command之後，範例：
+
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "/usr/local/bin/python3.6",
+    "isShellCommand": true,
+    "args": ["${file}"],
+    "showOutput": "always"
+}
+
+7.即可使用Ctrl(Command)+Shift+B 執行Python檔案
