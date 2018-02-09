@@ -19,7 +19,7 @@
 
 4.進入要推送上去的資料夾，輸入
 
-   echo "# Contacts_op_rc" >> README.md
+   echo "# 專案資料夾名稱" >> README.md
  
    # git init
    # git add README.md
