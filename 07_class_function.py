@@ -19,36 +19,37 @@ class Cat:
 a = Cat()
 a.meow()
 
-#靜態方法，跟@classmethod方法類似，但需要new一個物件才能使用，詳如下：，
-#方法內有多少參數，new出來的物件，就有多少參數。
-#跟classmethod的差別在於：因為staticmethod沒有在方法中自帶自己的類別，
-#所以如果在@staticmethod下，要直接使用類別中的其他屬性(變數)是無法的，等於是要在
-#new一個類別物件，才能使用該類別中不屬於靜態方法中的類別屬性或方法
+#靜態方法: 沒有預設參數，要呼叫類別中，靜態方法外的參數，像是下例中的var1
+#前面要使用該類別名稱，像是new一個物件出來，進而使用他的var1屬性一樣。
+
 class dog:
     var1 = "Try staticmethod"
     @staticmethod
     def wow(x,y):
         print('wow '* x * y)
-        print(dog.var1) # new一個dog出來，使用他的var1屬性
-        # static靜態方法，跟C#宣告物件後使用的方法較為雷同
+        print(dog.var1) #  要在類別方法中 直接new一個物件dog出來，使用他的var1屬性
+        # 不能夠 print(var1)
+
 
 a = dog() #相當於new一個物件，將其實體化
 a.wow(2,3)
+# 因為 a已經是類別dog的 實體物件，所以執行wow方法，會連裡面的print(dog.var1)一起執行
+
 
 #類別方法 
-#不需要宣告一個物件，宣告類別，建立方法後即可使用！
-#在classmethod的方法中，第一個參數表示類別本身，所以可以命名第一個參數為paraTest
-#即是呼叫了該類別(pig)，即可使用該類別下的屬性var1
-#classmethod方法中的第二個參數開始，即為函數方法的自帶參數
+# 第一個參數為預設可自訂參數，例如pig_self，可以透過第一個參數來使用 類別中但是為方法外的參數var1
+# 使用方式為pig_self.var1
+# 不需要宣告一個物件，宣告類別，建立方法後即可使用 --> pig.Print3！
+# classmethod方法中的第二個參數開始，即為函數方法的自帶參數
+# 方法宣告了幾個參數，方法中即要有對應的參數數量 像是pig_self, x, y
 
 class pig:
-    
     var1 = "Try classmethod"
     @classmethod      
-    def Print3(paraTest, x, y):  
-        print "print 3: "+ paraTest.var1 + x + y 
+    def Print3(pig_self, x, y):  
+        print "print 3: "+ pig_self.var1 + x + y  # 因為有自訂參數pig_self 所以使用var1 就比較容易
 
-pig.Print3(" 測試", " Python的方法")
+pig.Print3(" 測試", " Python的方法") # 可以不用像上面的靜態方法，仍要去new一個物件a出來
 
 # 函數使用return
 
