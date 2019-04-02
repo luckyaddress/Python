@@ -19,7 +19,7 @@ if t < 22:
 elif t < 20:
     print("請加件厚重的外套")
 else:
-    print("無須增減衣服")
+    print("視天氣狀況自行增減")
 
 score = int(input("請輸入成績分數=>"))
 if score > 60:
