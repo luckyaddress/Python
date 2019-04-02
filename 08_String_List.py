@@ -18,7 +18,7 @@ str2 = "HelloWakaki"
 print("Wa" in str2)
 print("wakaki" in str2)  # 這個 in 跟not in 有比較大小寫
 
-print("Kitty" <= "Wakaki")
+print("Kitty" <= "Wakaki") # 比較字元數的多少
 
 # 字串函數 字串方法 轉換字串方法 
 
