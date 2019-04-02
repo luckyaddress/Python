@@ -13,7 +13,7 @@ for i in range(5, 0, -1):
 # while迴圈  
 # # C#就是 
 #   i = 0;
-# while (i <= 10) { console.writeLiine(i); i++} 
+# while (i <= 10) { console.writeLine(i); i++} 
 
 # Python 要注意程式段落跟縮排問題，否則會造成執行效果差異！
 i = 0
