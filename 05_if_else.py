@@ -14,10 +14,12 @@ else:
 
 
 t = float(input("請輸入今天氣溫=>"))
-if t > 20 and t < 22:
+if t < 22:
     print("請加件薄外套吧")
 elif t < 20:
     print("請加件厚重的外套")
+else
+    print("無須增減衣服")
 
 score = int(input("請輸入成績分數=>"))
 if score > 60:
