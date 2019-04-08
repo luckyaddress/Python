@@ -50,7 +50,7 @@ del list2[10] # 測試刪除最後一個
 print(list2) 
 list2.pop(0) # pop() 如果之中沒有引數，預設會刪除最後一個並回傳，如果有引數，則刪除引數所給予的索引位置
 print(list2) # 到此處，list2已刪除 x 跟 12
-list2.remove(9) # 刪除引數所代表的項目，此處的index = 9 實際上是原本的7，但已經刪除2個，所以index有變動
+list2.remove(11) # 刪除引數中指定的項目，但要確認list中有此數值
 print(list2)
 
 # 清單運算子 包含 + * 以及 in not in 判斷，另外，同樣地可使用切割運算子
