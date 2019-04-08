@@ -102,7 +102,6 @@ print(E,F)
 list1 = [x for x in range(1,10,2) if x % 3 == 0] # 清單包含
 print(list1)
 
-list2 = ["Tom", "Calvin", "Tony"]
 dict1 = {x:x**3 for x in range(1,5)}
 print(dict1)  # 字典包含 **+數字 表示幾次方
 
